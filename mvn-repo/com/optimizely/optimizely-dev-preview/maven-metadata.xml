@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.optimizely</groupId>
+  <artifactId>optimizely-dev-preview</artifactId>
+  <version>0.1.0</version>
+  <versioning>
+    <versions>
+      <version>0.1.0</version>
+    </versions>
+    <lastUpdated>20141121020000</lastUpdated>
+  </versioning>
+</metadata>
