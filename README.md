@@ -3,6 +3,8 @@ Optimizely-Android-SDK
 
 # Caution: This is a Developer Preview
 
+You can request access to the developer preview at [optimizely.com/android](https://optimizely.com/android/).
+
  * APIs are not stable yet, and will change (shaped by your feedback!)
  * Many features are not yet implemented. See the [Changelog](Changelog) for updates
  * There may be bugs. Please [contact us](mailto:support@optimizely.com) and we'll resolve them as quickly as possible.
