@@ -1,3 +1,16 @@
+# 0.2.0 - Developer Preview (Dec 12, 2014)
+
+## Features
+ * Support for LiveVariables and CodeBlocks defined in code
+ * Traffic Allocation
+ * Variation Bucketing
+ * Faster and Smaller JSON Parser!
+
+## Known Issues
+ * View events for items "below the fold" do not fire
+ * Tap/View goal setup is difficult and annoying
+ * No Asset/Font Support (Coming soon)
+
 # 0.1.2 - Developer Preview (Dec 2, 2014)
 
 ## Features
