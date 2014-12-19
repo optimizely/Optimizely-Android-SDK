@@ -1,3 +1,10 @@
+# 0.2.1 - Developer Preview (Dec 12, 2014)
+
+## Bugfixes
+ * Graceful shutdown when Optimizely cannot activate due to network conditions
+ * Better error messaging in edit mode
+ * Fix for NoClassDefFound Error
+
 # 0.2.0 - Developer Preview (Dec 12, 2014)
 
 ## Features

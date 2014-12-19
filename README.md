@@ -15,6 +15,9 @@ This is the first Your [feedback](mailto:support@optimizely.com) is critical and
 We support Android API 14 and above. You will need an existing Android SDK installation and either Eclipse or Android Studio in
 order to use Optimizely.
 
+## Dependencies
+Optimizely depends on Google's [GSON](http://search.maven.org/#browse%7C472424538) library.
+
 ## Getting Started and FAQ
 
 To install Optimizely, please refer to our **[Installation Guide](http://developers.optimizely.com/android/)**.
