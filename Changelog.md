@@ -1,4 +1,4 @@
-# 0.2.1 - Developer Preview (Dec 12, 2014)
+# 0.2.1 - Developer Preview (Dec 19, 2014)
 
 ## Bugfixes
  * Graceful shutdown when Optimizely cannot activate due to network conditions
