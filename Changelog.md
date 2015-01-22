@@ -1,4 +1,4 @@
-# 0.2.5 - Developer Preview (Jan 21, 2015)
+# 0.2.6 - Developer Preview (Jan 26, 2015)
 
 ## Bugfixes
  * SDK is now a no-op for versions of Android < 4.0 (API level 14)
