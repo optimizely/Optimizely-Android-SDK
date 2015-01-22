@@ -6,7 +6,7 @@
  * Network crash fixed
 
 ## Features
- * Better (and more stable) view targetting
+ * Better (and more stable) view targeting
  * Notification when in Edit Mode
  * Better screen shot resolution
  * Remote kill switch
