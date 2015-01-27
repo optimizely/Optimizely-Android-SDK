@@ -16,7 +16,9 @@ We support Android API 14 and above. You will need an existing Android SDK insta
 order to use Optimizely.
 
 ## Dependencies
-Optimizely depends on Google's [GSON](http://search.maven.org/#browse%7C472424538) library.
+Optimizely depends on:
+* Google's [GSON](http://search.maven.org/#browse%7C472424538) library.
+* The [Android Support v4](http://developer.android.com/tools/support-library/features.html#v4) library.
 
 ## Getting Started and FAQ
 
