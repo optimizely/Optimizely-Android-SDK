@@ -1,3 +1,26 @@
+# 0.3.0 - Public Beta (Feb 4, 2015)
+## Bugfixes
+ * Fixed a bug that prevented changes being applied to fragments
+ * Preview Mode notification no longer says "edit mode"
+
+## Features
+ * Performance improvements
+
+## Breaking Changes
+ * New API name for disabling visual experiments
+
+# 0.2.8 - Developer Preview (Feb 3, 2015)
+
+## Bugfixes
+ * Network timeout now strictly enforced
+ * Startup will no longer be blocked by other AsyncTasks running in the app
+
+## Features
+ * New API for disabling event logging
+ * New API for disabling visual experiments
+ * Much much faster visual editing
+ * Large performance improvements
+
 # 0.2.6 - Developer Preview (Jan 26, 2015)
 
 ## Bugfixes
