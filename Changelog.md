@@ -1,3 +1,10 @@
+# 0.3.1 - Public Beta (Feb 12, 2015)
+## Bugfixes
+ * Fixed a bug around when a visitor is counted by an experiment
+
+## Features
+ * Added error messaging when the SDK references an archived project.
+
 # 0.3.0 - Public Beta (Feb 4, 2015)
 ## Bugfixes
  * Fixed a bug that prevented changes being applied to fragments
