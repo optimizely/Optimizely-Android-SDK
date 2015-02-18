@@ -1,15 +1,13 @@
 Optimizely-Android-SDK
 ======================
 
-# Caution: This is a Developer Preview
-
-You can request access to the developer preview at [optimizely.com/android](https://optimizely.com/android/).
+# Caution: This SDK is currently in public beta 
 
  * APIs are not stable yet, and will change (shaped by your feedback!)
  * Many features are not yet implemented. See the [Changelog](Changelog.md) for updates
  * There may be bugs. Please [contact us](mailto:support@optimizely.com) and we'll resolve them as quickly as possible.
 
-This is the first Your [feedback](mailto:support@optimizely.com) is critical and will help us shape the future of this product!
+Your [feedback](mailto:support@optimizely.com) is critical and will help us shape the future of this product!
 
 ## Requirements
 We support Android API 14 and above. You will need an existing Android SDK installation and either Eclipse or Android Studio in
