@@ -1,3 +1,19 @@
+# 0.3.2 - Public Beta (Feb 20, 2015)
+## Bugfixes
+ * Fixed a socket reconnection bug that would try and reconnect the websocket every 1 millisecond
+ * Fixed view identification on older APIs (16 and below) when experiment is created using a newer device
+ * Fixed an edit mode bug on API 14 and 15
+
+## Features
+ * Added error messaging when the SDK references an archived project.
+ * Greatly improved performance and memory overhead in Edit Mode
+ * New Asynchronous Start API
+ * Improved network and logging performance
+ * Better error messaging
+
+## Breaking Changes
+ * New method: onEditorEnabled for the OptimizelyEventListener interface. This listener method is notified whenever the app is placed into edit mode.
+
 # 0.3.1 - Public Beta (Feb 12, 2015)
 ## Bugfixes
  * Fixed a bug around when a visitor is counted by an experiment
