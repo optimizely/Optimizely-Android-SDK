@@ -1,3 +1,44 @@
+# 0.3.14 - Public Beta (Mar 20, 2015)
+## Bugfixes
+ * Fixed bug which did not record visitors for baseline variations
+ * Fixed bug which allowed code blocks which shared names to be executed incorrectly
+ * Fixed a JSON decoding exception on startup
+ * Fixed a NPE when activating experiments
+ * Fixed an API access for < API 15
+ * Fixed a refresh bug in edit mode where old edits would not be reset after reconnecting to the editor
+ * Fixed NPE when sending a screenshot in edit mode
+ * Fixed a code blocks bug in edit mode where the code block would not reset properly
+ * Edit gesture disabled in production
+ * Fixed an API access for < API 17
+ * Fixed the `Optimizely.sendEvents()` API
+ * Fixed stacking of touch event listeners
+ * Fixed visitor counting (previously visitor counts only occured during a conversion event)
+
+## Features
+ * Added API to expose the Optimizely SDK version
+ * New Listener Events for:
+   * Experiment Visited
+   * Goal Triggered
+   * Data file loaded
+ * New API to get all experiments that have been visited by the user: `Optimizely.getVisitedExperiments()`
+ * New API to get all experiments, active or not: `Optimizely.getAllExperiments()`
+ * New APIs to check targeting conditions, current state, and conflicts of running experiments in `OptimizelyExperimentState`
+ * Upgraded to OkHTTP
+   * New API to inject OkHTTP client for testing/debugging: `Optimizely.setHttpClient()`
+ * New API `setOptimizelyId(String, View)` to uniquely identify views in AdapterViews or group similar Views
+ * Better memory performance in edit mode
+ * Better kill switch behavior
+ * Allow setting visibility of elements to GONE as well as VISIBLE or INVISIBLE
+ * Allow removing an image from an ImageView from the web editor
+
+
+## Breaking Changes
+ * The OptimizelyEventListener Interface has new methods which will need to be added
+ * The OptimizelyExperimentState has changed significantly
+   * OptimizelyExperimentState has been renamed to OptimizelyExperimentData
+   * Contains fields for determining whether the experiment has been visited ever, is currently active, has passed targeting, etc.
+ * `Optimizely.getActiveExperiments()` API is now deprecated. Use `Optimizely.getAllExperiments()` or `Optimizely.getVisitedExperiments()`
+
 # 0.3.2 - Public Beta (Feb 20, 2015)
 ## Bugfixes
  * Fixed a socket reconnection bug that would try and reconnect the websocket every 1 millisecond
