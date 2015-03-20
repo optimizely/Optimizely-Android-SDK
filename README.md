@@ -17,6 +17,7 @@ order to use Optimizely.
 Optimizely depends on:
 * Google's [GSON](http://search.maven.org/#browse%7C472424538) library.
 * The [Android Support v4](http://developer.android.com/tools/support-library/features.html#v4) library.
+* Square's popular [OkHTTP](http://square.github.io/okhttp/) library
 
 ## Getting Started and FAQ
 
