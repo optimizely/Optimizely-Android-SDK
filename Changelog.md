@@ -1,3 +1,28 @@
+# 1.0.0 - General Availability (April 21, 2015)
+## Bugfixes
+ * Fixed a NPE during screenshot creation in edit mode
+ * Fixed the version number displayed when downloading data files
+ * Fixed an NPE when calling `Optimizely.setOptimizelyId(String, View)` before Optimizely has started
+ * Fixed several synchronization issues in Edit Mode
+ * Fix for several strict mode violations
+ * `Optimizely.getAllExperiments()` now returns inactive experiments
+ * Fix for NPE when calling `Optimizely.trackEvent(String)` before Optimizely has started
+ * Fix experiment support in Preview mode
+ * Fix for Edit mode socket disconnects
+ * Fix for Color Live Variables in visual editor
+ * Fixed landscape editing in visual editor
+
+## Features
+ * Image/Asset Swapping through the visual editor
+ * Setting an Optimizely ID on a ViewGroup now allows the children to be referenced individually
+ * Better debugging of conversion events
+ * Better handling of duplicate touch events
+ * Limited background data file downloads
+
+## Breaking Changes
+ * `CodeBlock`s have been renamed to `CodeBranch`
+ * `DefaultCodeBlock` has been renamed to `DefaultCodeBranch`
+
 # 0.3.14 - Public Beta (Mar 20, 2015)
 ## Bugfixes
  * Fixed bug which did not record visitors for baseline variations
