@@ -1,8 +1,10 @@
 Optimizely-Android-SDK
 ======================
 
+Your [feedback](mailto:support@optimizely.com) is critical and will help us shape the future of this product!
+
 ## Requirements
-We support Android API 14 and above. You will need an existing Android SDK installation and either Eclipse or Android Studio in
+We support Android API 11 and above. You will need an existing Android SDK installation and either Eclipse or Android Studio in
 order to use Optimizely.
 
 ## Dependencies
