@@ -1,3 +1,7 @@
+# 1.0.1 - General Availability (May 4, 2015)
+## Bugfixes
+ * Fixed an IllegalArgumentException related to tag handling
+
 # 1.0.0 - General Availability (April 21, 2015)
 ## Bugfixes
  * Fixed a NPE during screenshot creation in edit mode
