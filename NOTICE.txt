@@ -179,3 +179,8 @@ Autobahn Android
       of your accepting any such warranty or additional liability.
 
    END OF TERMS AND CONDITIONS
+
+Changes:
+ - Increased max packet size
+ - Added nullity checks
+ - Added observers
