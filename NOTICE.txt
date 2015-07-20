@@ -184,3 +184,12 @@ Changes:
  - Increased max packet size
  - Added nullity checks
  - Added observers
+
+
+Murmur3 Hash
+========================
+The MurmurHash3 algorithm was created by Austin Appleby.  This java port was authored by
+Yonik Seeley and is placed into the public domain.  The author hereby disclaims copyright
+to this source code.
+
+
