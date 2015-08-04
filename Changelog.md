@@ -1,3 +1,7 @@
+# 1.0.4 - General Availability (Aug 3, 2015)
+## Bugfixes
+ * Fixes 2 crashes related to font handling
+
 # 1.0.1 - General Availability (May 4, 2015)
 ## Bugfixes
  * Fixed an IllegalArgumentException related to tag handling
