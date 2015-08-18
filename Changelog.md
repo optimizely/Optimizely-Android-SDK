@@ -1,3 +1,25 @@
+#1.1.0 - General Availability (Aug 17, 2015)
+## New Features:
+ * Audiences: now you can better target experiences
+ * New goals dialog: better view and tap goals, detection of custom goals 
+ * New Preview feature for better QA
+ * New Analytics integrations:
+   * Google Analytics
+   * Mixpanel
+   * Amplitude
+ * Increased performance when adding views after activity launch
+ * Short links for launching into Edit or Preview mode without the gesture
+ * Default implementation of Optimizely event listener interface
+
+## Bug Fixes:
+ * Fixes issues around asset caching
+ * Fixes concurrent database start issue
+ * Various JSON messaging changes
+ * URL changes for endpoints
+
+## Breaking Changes:
+ * Minimum supported Android SDK is now 8
+
 # 1.0.4 - General Availability (Aug 3, 2015)
 ## Bugfixes
  * Fixes 2 crashes related to font handling
