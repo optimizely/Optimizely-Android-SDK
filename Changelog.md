@@ -1,3 +1,13 @@
+#1.1.3 (Sep 14, 2015)
+## New Features
+ * Localytics Integration
+ * Improves visual editor performance during RecyclerView Scrolling
+
+## Bugfixes
+ * Fixes a bug when loading audiences
+ * You can now register plugins before the call to startOptimizely
+ * Fixes enum incompatibility with Proguard
+
 #1.1.0 - General Availability (Aug 17, 2015)
 ## New Features:
  * Audiences: now you can better target experiences
