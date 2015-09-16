@@ -1,4 +1,14 @@
 #1.1.3 (Sep 14, 2015)
+## Breaking Changes
+ * New Proguard rules required
+
+```
+-dontwarn com.optimizely.integrations.**
+-dontwarn com.mixpanel.android.mpmetrics.MixpanelApiRetriever*
+-dontwarn com.amplitude.api.OptimizelyAmplitudeBridge
+
+```
+
 ## New Features
  * Localytics Integration
  * Improves visual editor performance during RecyclerView Scrolling
