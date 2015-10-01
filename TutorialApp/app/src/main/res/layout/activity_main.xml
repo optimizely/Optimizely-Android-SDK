@@ -3,9 +3,65 @@
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#0f204a">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:layout_margin="50dp"
+        android:background="#ffffff">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/optimizelyLogo"
+            android:src="@drawable/optimizely_logo_darkblue"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/button"
+            android:layout_alignEnd="@+id/button" />
+
+        <TextView android:text="@string/welcome_title" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_alignBottom="@+id/optimizelyLogo"
+            android:textSize="16sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="@string/button_gotit"
+            android:background="#68980f"
+            android:textColor="#ffffff"
+            android:id="@+id/button"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="goToMainScreen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_text"
+            android:id="@+id/welcome_text"
+            android:layout_below="@+id/optimizelyLogo"
+            android:layout_marginTop="37dp"
+            android:textSize="12sp"
+            android:layout_alignLeft="@+id/button"
+            android:layout_alignStart="@+id/button"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+
+    </RelativeLayout>
 
 </RelativeLayout>
