@@ -1,3 +1,7 @@
+#1.2.1 (Oct 6, 2015)
+## Bugfixes
+ * Remove backup settings from AndroidManifest.xml
+
 #1.2.0 (Oct 5, 2015)
 ## New Features
  * View/Tap goals can now be triggered by multiple views
