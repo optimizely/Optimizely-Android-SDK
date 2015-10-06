@@ -1,3 +1,13 @@
+#1.2.0 (Oct 5, 2015)
+## New Features
+ * View/Tap goals can now be triggered by multiple views
+ * Adds support for Fragment View Goals
+ * Adds callbacks for code block change
+
+## Bugfixes
+ * Fix setting width/height in preview mode
+ * Fixes a crash when launching into preview mode
+
 #1.1.3 (Sep 14, 2015)
 ## Breaking Changes
  * New Proguard rules required
