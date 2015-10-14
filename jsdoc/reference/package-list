@@ -1,0 +1,9 @@
+com.optimizely
+com.optimizely.CodeBlocks
+com.optimizely.Variable
+com.optimizely.integration
+com.optimizely.integrations.amplitude
+com.optimizely.integrations.localytics
+com.optimizely.integrations.mixpanel
+com.optimizely.integrations.universalanalytics
+
