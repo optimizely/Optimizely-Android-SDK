@@ -1,3 +1,7 @@
+#1.2.3 (Oct 15, 2015)
+## Bugfixes
+ * Added Fabric properties
+ 
 #1.2.2 (Oct 14, 2015)
 ## New Features
  * Proguard configuration for SDK is now bundled with the SDK
