@@ -1,7 +1,7 @@
 #1.2.2 (Oct 14, 2015)
 ## New Features
  * Proguard configuration for SDK is now bundled with the SDK
- * 
+ 
 ## Bugfixes
  * Fixes conflict between Proguard and Gson
  * Removes unecessary elements from the library's Manifest
