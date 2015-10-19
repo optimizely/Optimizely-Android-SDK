@@ -33,7 +33,7 @@ public class LiveVariablesListActivity extends AppCompatActivity {
             }
         });
 
-        getSupportActionBar().show();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
     }

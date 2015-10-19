@@ -19,6 +19,10 @@
     <string name="discount_string">25% OFF YOUR FIRST ORDER IF YOU SIGN UP BY 9/1</string>
     <string name="title_activity_live_variables_list">LiveVariablesListActivity</string>
     <string name="live_variables_title">Live Variables</string>
+    <string name="code_blocks_string">A company that helps you buy widgets.</string>
+    <string name="code_blocks_signin">Sign In</string>
+    <string name="code_blocks_company">We sell gears.</string>
+    <string name="take_me_to_widgets">Take me to the widgets</string>
 
 
     <string name="msrp_1">3.99</string>
@@ -71,6 +75,7 @@
         <item>@string/item_name_5</item>
         <item>@string/item_name_6</item>
     </string-array>
+    <string name="title_activity_code_blocks2">CodeBlocksActivity2</string>
 
 
 </resources>

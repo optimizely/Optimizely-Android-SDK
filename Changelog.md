@@ -1,3 +1,53 @@
+#1.2.4 (Oct 16, 2015)
+## Bugfixes
+ * Added Fabric properties to core as well as bundle
+ 
+#1.2.3 (Oct 15, 2015)
+## Bugfixes
+ * Added Fabric properties
+ 
+#1.2.2 (Oct 14, 2015)
+## New Features
+ * Proguard configuration for SDK is now bundled with the SDK
+ 
+## Bugfixes
+ * Fixes conflict between Proguard and Gson
+ * Removes unecessary elements from the library's Manifest
+
+#1.2.1 (Oct 6, 2015)
+## Bugfixes
+ * Remove backup settings from AndroidManifest.xml
+
+#1.2.0 (Oct 5, 2015)
+## New Features
+ * View/Tap goals can now be triggered by multiple views
+ * Adds support for Fragment View Goals
+ * Adds callbacks for code block change
+
+## Bugfixes
+ * Fix setting width/height in preview mode
+ * Fixes a crash when launching into preview mode
+
+#1.1.3 (Sep 14, 2015)
+## Breaking Changes
+ * New Proguard rules required
+
+```
+-dontwarn com.optimizely.integrations.**
+-dontwarn com.mixpanel.android.mpmetrics.MixpanelApiRetriever*
+-dontwarn com.amplitude.api.OptimizelyAmplitudeBridge
+
+```
+
+## New Features
+ * Localytics Integration
+ * Improves visual editor performance during RecyclerView Scrolling
+
+## Bugfixes
+ * Fixes a bug when loading audiences
+ * You can now register plugins before the call to startOptimizely
+ * Fixes enum incompatibility with Proguard
+
 #1.1.0 - General Availability (Aug 17, 2015)
 ## New Features:
  * Audiences: now you can better target experiences

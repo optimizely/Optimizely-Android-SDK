@@ -21,4 +21,4 @@ To install Optimizely, please refer to our **[Installation Guide](http://develop
 We want your feedback! For any and all questions, comments, or kudos, please get in touch with us at [android@optimizely.com](mailto:android@optimizely.com).
 
 ## Legal
-Usage is covered by Optimizely's terms of service that you agree to when signing up for Optimizely.
+Usage of this Optimizely SDK is covered by the Optimizely SDK License Agreement located at LICENSE.md. For developers with a current subscription for the Optimizely Service that includes access to the Optimizely SDK for mobile products, the Optimizely SDK License Agreement does not apply. Instead, your agreement with Optimizely for the Optimizely Service with mobile applies.

@@ -1,3 +1,17 @@
+//
+//  LandingTableActivity
+//  TutorialApp
+//
+//  This Optimizely Tutorial app will teach you how to use Optimizely's iOS SDK's
+//  3 key features:
+//     - Visual Editor
+//     - Live Variables
+//     - Code Blocks
+//
+//  Created by Pam Ongchin on 10/19/15.
+//  Copyright (c) 2015 Optimizely. All rights reserved.
+//
+
 package com.optimizely.tutorialapp;
 
 import android.content.Intent;

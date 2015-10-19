@@ -1,3 +1,17 @@
+//
+//  LiveVariablesActivity
+//  TutorialApp
+//
+//  This Optimizely Tutorial app will teach you how to use Optimizely's iOS SDK's
+//  3 key features:
+//     - Visual Editor
+//     - Live Variables
+//     - Code Blocks
+//
+//  Created by Pam Ongchin on 10/19/15.
+//  Copyright (c) 2015 Optimizely. All rights reserved.
+//
+
 package com.optimizely.tutorialapp;
 
 import android.content.Context;
@@ -14,17 +28,15 @@ import com.optimizely.Variable.LiveVariable;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-/**
- * Created by pamelaongchin on 9/28/15.
- */
 public class LiveVariablesAdapter extends BaseAdapter {
     private Context context;
 
     String[] msrpArray = {"3.99", "6.99", "9.99", "12.99", "15.99", "18.99"};
     String[] itemNameArray = {"Standard Widget", "Standard Widget Pack", "Deluxe Widget", "Deluxe Widget Pack", "Premium Widget", "Premium Widget Pack"};
+
+    // [OPTIMIZELY] Examples of how to declare live variables (Part 1 of 2)
     private static LiveVariable<Float> discountVariable = Optimizely.floatForKey("discountVariable", 0.25f /* default value */);
     private static LiveVariable<Integer> numberOfItems = Optimizely.integerForKey("numberOfItems", 4 /* default value */);
-
     //String[] itemNameArray = context.getResources().getStringArray(R.array.item_name_array);
 
     public LiveVariablesAdapter(Context c) {
@@ -33,6 +45,7 @@ public class LiveVariablesAdapter extends BaseAdapter {
 
     public int getCount() {
         if (numberOfItems.get() <= 6)
+            // [OPTIMIZELY] Examples of how to use live variable values (Part 2 of 2)
             return numberOfItems.get();
         else
             return mThumbIds.length;
@@ -74,6 +87,8 @@ public class LiveVariablesAdapter extends BaseAdapter {
 
 
             TextView saleView = (TextView) gridView.findViewById(R.id.text_view_sales_price);
+
+            // [OPTIMIZELY] Examples of how to use live variable values (Part 2 of 2)
             saleView.setText(Float.toString(round((1.0f - discountVariable.get()) * Float.parseFloat(msrpArray[position]), 2)));
 
             imageView.setImageResource(mThumbIds[position]);

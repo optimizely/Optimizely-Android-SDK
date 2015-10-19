@@ -1,0 +1,2411 @@
+<api>
+<package name="com.optimizely"
+>
+<class name="Optimizely"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="addOptimizelyEventListener"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="listener" type="com.optimizely.integration.OptimizelyEventListener">
+</parameter>
+</method>
+<method name="booleanForKey"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.Boolean&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="java.lang.Boolean">
+</parameter>
+</method>
+<method name="booleanForKey"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.Boolean&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="java.lang.Boolean">
+</parameter>
+<parameter name="callback" type="com.optimizely.Variable.LiveVariable.Callback&lt;java.lang.Boolean&gt;">
+</parameter>
+</method>
+<method name="booleanVariable"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.Boolean&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="java.lang.Boolean">
+</parameter>
+</method>
+<method name="booleanVariable"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.Boolean&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="java.lang.Boolean">
+</parameter>
+<parameter name="callback" type="com.optimizely.Variable.LiveVariable.Callback&lt;java.lang.Boolean&gt;">
+</parameter>
+</method>
+<method name="codeBlock"
+ return="com.optimizely.CodeBlocks.OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="codeBlockName" type="java.lang.String">
+</parameter>
+</method>
+<method name="codeBlockWithBranchNames"
+ return="com.optimizely.CodeBlocks.OptimizelyCodeBlock"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="codeBlockName" type="java.lang.String">
+</parameter>
+<parameter name="branchNames" type="java.lang.String...">
+</parameter>
+</method>
+<method name="colorForKey"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.Integer&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="int">
+</parameter>
+</method>
+<method name="colorForKey"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.Integer&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="int">
+</parameter>
+<parameter name="callback" type="com.optimizely.Variable.LiveVariable.Callback&lt;java.lang.Integer&gt;">
+</parameter>
+</method>
+<method name="colorVariable"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.Integer&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="int">
+</parameter>
+</method>
+<method name="colorVariable"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.Integer&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="int">
+</parameter>
+<parameter name="callback" type="com.optimizely.Variable.LiveVariable.Callback&lt;java.lang.Integer&gt;">
+</parameter>
+</method>
+<method name="enableEditor"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="floatForKey"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.Float&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="float">
+</parameter>
+</method>
+<method name="floatForKey"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.Float&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="float">
+</parameter>
+<parameter name="callback" type="com.optimizely.Variable.LiveVariable.Callback&lt;java.lang.Float&gt;">
+</parameter>
+</method>
+<method name="floatVariable"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.Float&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="float">
+</parameter>
+</method>
+<method name="floatVariable"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.Float&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="float">
+</parameter>
+<parameter name="callback" type="com.optimizely.Variable.LiveVariable.Callback&lt;java.lang.Float&gt;">
+</parameter>
+</method>
+<method name="getActiveExperiments"
+ return="java.util.Map&lt;java.lang.String, java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+</method>
+<method name="getAllExperiments"
+ return="java.util.Map&lt;java.lang.String, com.optimizely.integration.OptimizelyExperimentData&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getApplication"
+ return="android.app.Application"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getAudiences"
+ return="org.json.JSONArray"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getAudiencesManager"
+ return="OptimizelyAudiencesManager"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getExperimentDataById"
+ return="com.optimizely.integration.OptimizelyExperimentData"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="experimentId" type="java.lang.String">
+</parameter>
+</method>
+<method name="getIntegrationEventsDispatcher"
+ return="IntegrationEventsDispatcher"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSharedDataStore"
+ return="OptimizelyDataStore"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getStartState"
+ return="com.optimizely.Optimizely.OptimizelyStartState"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getUserId"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="android.content.Context">
+</parameter>
+</method>
+<method name="getVisitedExperiments"
+ return="java.util.Map&lt;java.lang.String, com.optimizely.integration.OptimizelyExperimentData&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="integerForKey"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.Integer&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="int">
+</parameter>
+</method>
+<method name="integerForKey"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.Integer&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="int">
+</parameter>
+<parameter name="callback" type="com.optimizely.Variable.LiveVariable.Callback&lt;java.lang.Integer&gt;">
+</parameter>
+</method>
+<method name="integerVariable"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.Integer&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="int">
+</parameter>
+</method>
+<method name="integerVariable"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.Integer&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="int">
+</parameter>
+<parameter name="callback" type="com.optimizely.Variable.LiveVariable.Callback&lt;java.lang.Integer&gt;">
+</parameter>
+</method>
+<method name="isUserInAudience"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="audienceID" type="java.lang.String">
+</parameter>
+</method>
+<method name="pointForKey"
+ return="com.optimizely.Variable.LiveVariable&lt;android.graphics.Point&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="android.graphics.Point">
+</parameter>
+</method>
+<method name="pointForKey"
+ return="com.optimizely.Variable.LiveVariable&lt;android.graphics.Point&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="android.graphics.Point">
+</parameter>
+<parameter name="callback" type="com.optimizely.Variable.LiveVariable.Callback&lt;android.graphics.Point&gt;">
+</parameter>
+</method>
+<method name="pointVariable"
+ return="com.optimizely.Variable.LiveVariable&lt;android.graphics.Point&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="android.graphics.Point">
+</parameter>
+</method>
+<method name="pointVariable"
+ return="com.optimizely.Variable.LiveVariable&lt;android.graphics.Point&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="android.graphics.Point">
+</parameter>
+<parameter name="callback" type="com.optimizely.Variable.LiveVariable.Callback&lt;android.graphics.Point&gt;">
+</parameter>
+</method>
+<method name="rectForKey"
+ return="com.optimizely.Variable.LiveVariable&lt;android.graphics.Rect&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="android.graphics.Rect">
+</parameter>
+</method>
+<method name="rectForKey"
+ return="com.optimizely.Variable.LiveVariable&lt;android.graphics.Rect&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="android.graphics.Rect">
+</parameter>
+<parameter name="callback" type="com.optimizely.Variable.LiveVariable.Callback&lt;android.graphics.Rect&gt;">
+</parameter>
+</method>
+<method name="rectVariable"
+ return="com.optimizely.Variable.LiveVariable&lt;android.graphics.Rect&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="android.graphics.Rect">
+</parameter>
+</method>
+<method name="rectVariable"
+ return="com.optimizely.Variable.LiveVariable&lt;android.graphics.Rect&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="android.graphics.Rect">
+</parameter>
+<parameter name="callback" type="com.optimizely.Variable.LiveVariable.Callback&lt;android.graphics.Rect&gt;">
+</parameter>
+</method>
+<method name="refreshExperimentData"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+</method>
+<method name="refreshExperiments"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="registerPlugin"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="plugin" type="OptimizelyPlugin">
+</parameter>
+</method>
+<method name="removeOptimizelyEventListener"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="listener" type="com.optimizely.integration.OptimizelyEventListener">
+</parameter>
+</method>
+<method name="resetUserBucketing"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="userContext" type="android.content.Context">
+</parameter>
+</method>
+<method name="sdkVersion"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="sendEvents"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="setAutomaticEventSending"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="automaticEventSending" type="boolean">
+</parameter>
+</method>
+<method name="setCustomTag"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="key" type="java.lang.String">
+</parameter>
+<parameter name="value" type="java.lang.String">
+</parameter>
+</method>
+<method name="setDataFileDownloadInterval"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="dataFileDownloadInterval" type="long">
+</parameter>
+</method>
+<method name="setDumpNetworkCalls"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="dumpNetworkCalls" type="boolean">
+</parameter>
+</method>
+<method name="setEditGestureEnabled"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="editGestureEnabled" type="boolean">
+</parameter>
+</method>
+<method name="setEventRecordingEnabled"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="eventRecordingEnabled" type="boolean">
+</parameter>
+</method>
+<method name="setHttpClient"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="httpClient" type="OkHttpClient">
+</parameter>
+</method>
+<method name="setNetworkTimeout"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="networkTimeout" type="int">
+</parameter>
+</method>
+<method name="setOptimizelyId"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="id" type="java.lang.String">
+</parameter>
+<parameter name="view" type="android.view.View">
+</parameter>
+</method>
+<method name="setUserId"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="android.content.Context">
+</parameter>
+<parameter name="userId" type="java.lang.String">
+</parameter>
+</method>
+<method name="setVerboseLogging"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="enableLogging" type="boolean">
+</parameter>
+</method>
+<method name="setVisualExperimentsEnabled"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="visualExperimentsEnabled" type="boolean">
+</parameter>
+</method>
+<method name="setshouldReloadExperimentsOnForegrounding"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="shouldReloadExperimentsOnForegrounding" type="boolean">
+</parameter>
+</method>
+<method name="startOptimizely"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="apiToken" type="java.lang.String">
+</parameter>
+<parameter name="application" type="android.app.Application">
+</parameter>
+</method>
+<method name="startOptimizelyAsync"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="apiToken" type="java.lang.String">
+</parameter>
+<parameter name="application" type="android.app.Application">
+</parameter>
+<parameter name="callback" type="com.optimizely.integration.OptimizelyEventListener">
+</parameter>
+</method>
+<method name="startOptimizelyWithAPIToken"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="apiToken" type="java.lang.String">
+</parameter>
+<parameter name="application" type="android.app.Application">
+</parameter>
+</method>
+<method name="startOptimizelyWithAPIToken"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="apiToken" type="java.lang.String">
+</parameter>
+<parameter name="application" type="android.app.Application">
+</parameter>
+<parameter name="optimizelyEventListener" type="com.optimizely.integration.OptimizelyEventListener">
+</parameter>
+</method>
+<method name="stopOptimizely"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="stringForKey"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="java.lang.String">
+</parameter>
+</method>
+<method name="stringForKey"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="java.lang.String">
+</parameter>
+<parameter name="callback" type="com.optimizely.Variable.LiveVariable.Callback&lt;java.lang.String&gt;">
+</parameter>
+</method>
+<method name="stringVariable"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="java.lang.String">
+</parameter>
+</method>
+<method name="stringVariable"
+ return="com.optimizely.Variable.LiveVariable&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="java.lang.String">
+</parameter>
+<parameter name="callback" type="com.optimizely.Variable.LiveVariable.Callback&lt;java.lang.String&gt;">
+</parameter>
+</method>
+<method name="trackEvent"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="description" type="java.lang.String">
+</parameter>
+</method>
+<method name="trackRevenue"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="revenueAmount" type="int">
+</parameter>
+</method>
+<method name="trackRevenueWithDescription"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="revenueAmount" type="int">
+</parameter>
+<parameter name="revenueDescription" type="java.lang.String">
+</parameter>
+</method>
+<method name="trackViewGoal"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="id" type="java.lang.String">
+</parameter>
+</method>
+<field name="application"
+ type="android.app.Application"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+</class>
+<class name="Optimizely.OptimizelyStartState"
+ extends="java.lang.Enum"
+ abstract="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="valueOf"
+ return="com.optimizely.Optimizely.OptimizelyStartState"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="name" type="java.lang.String">
+</parameter>
+</method>
+<method name="values"
+ return="com.optimizely.Optimizely.OptimizelyStartState[]"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+</package>
+<package name="com.optimizely.CodeBlocks"
+>
+<class name="CodeBranch"
+ extends="java.lang.Object"
+ abstract="true"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="CodeBranch"
+ type="com.optimizely.CodeBlocks.CodeBranch"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<constructor name="CodeBranch"
+ type="com.optimizely.CodeBlocks.CodeBranch"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="branchName" type="java.lang.String">
+</parameter>
+</constructor>
+<method name="execute"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<field name="branchName"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+</class>
+<class name="DefaultCodeBranch"
+ extends="com.optimizely.CodeBlocks.CodeBranch"
+ abstract="true"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="DefaultCodeBranch"
+ type="com.optimizely.CodeBlocks.DefaultCodeBranch"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+</class>
+<class name="OptimizelyCodeBlock"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="execute"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="defaultCodeBlock" type="com.optimizely.CodeBlocks.DefaultCodeBranch">
+</parameter>
+<parameter name="codeBranches" type="com.optimizely.CodeBlocks.CodeBranch...">
+</parameter>
+</method>
+<method name="findActiveCodeBlock"
+ return="android.util.Pair&lt;java.lang.String, com.optimizely.CodeBlocks.CodeBranch&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getBlockName"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getBranchNames"
+ return="java.util.Set&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDefaultBranchName"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+<interface name="OptimizelyCodeBlock.Callback"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="onBranchChange"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</interface>
+<class name="OptimizelyCodeBlocks"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="OptimizelyCodeBlocks"
+ type="com.optimizely.CodeBlocks.OptimizelyCodeBlocks"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="optimizely" type="com.optimizely.Optimizely">
+</parameter>
+</constructor>
+<method name="blockBuilder"
+ return="com.optimizely.CodeBlocks.OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="codeBlockKey" type="java.lang.String">
+</parameter>
+</method>
+<method name="makeCodeBlock"
+ return="com.optimizely.CodeBlocks.OptimizelyCodeBlock"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="codeBlockKey" type="java.lang.String">
+</parameter>
+<parameter name="branchNames" type="java.lang.String...">
+</parameter>
+</method>
+<method name="makeCodeBlock"
+ return="com.optimizely.CodeBlocks.OptimizelyCodeBlock"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="codeBlockKey" type="java.lang.String">
+</parameter>
+<parameter name="callback" type="com.optimizely.CodeBlocks.OptimizelyCodeBlock.Callback">
+</parameter>
+<parameter name="branchNames" type="java.lang.String...">
+</parameter>
+</method>
+<method name="sendCodeBlocks"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+<class name="OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="OptimizelyCodeBlockBuilder"
+ type="com.optimizely.CodeBlocks.OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="blockName" type="java.lang.String">
+</parameter>
+</constructor>
+<method name="setCallback"
+ return="com.optimizely.CodeBlocks.OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="callback" type="com.optimizely.CodeBlocks.OptimizelyCodeBlock.Callback">
+</parameter>
+</method>
+<method name="withBranchNames"
+ return="com.optimizely.CodeBlocks.OptimizelyCodeBlock"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="branchNames" type="java.lang.String...">
+</parameter>
+</method>
+</class>
+</package>
+<package name="com.optimizely.Variable"
+>
+<class name="LiveVariable"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="LiveVariable"
+ type="com.optimizely.Variable.LiveVariable"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="protected"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="T">
+</parameter>
+<parameter name="optimizelyVariables" type="OptimizelyVariables">
+</parameter>
+</constructor>
+<method name="get"
+ return="T"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+<interface name="LiveVariable.Callback"
+ abstract="true"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="execute"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="variableKey" type="java.lang.String">
+</parameter>
+<parameter name="value" type="T">
+</parameter>
+</method>
+</interface>
+</package>
+<package name="com.optimizely.integration"
+>
+<class name="DefaultOptimizelyEventListener"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<implements name="com.optimizely.integration.OptimizelyEventListener">
+</implements>
+<constructor name="DefaultOptimizelyEventListener"
+ type="com.optimizely.integration.DefaultOptimizelyEventListener"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<method name="onGoalTriggered"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="description" type="java.lang.String">
+</parameter>
+<parameter name="affectedExperiments" type="java.util.List&lt;com.optimizely.integration.OptimizelyExperimentData&gt;">
+</parameter>
+</method>
+<method name="onMessage"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="source" type="java.lang.String">
+</parameter>
+<parameter name="messageType" type="java.lang.String">
+</parameter>
+<parameter name="payload" type="android.os.Bundle">
+</parameter>
+</method>
+<method name="onOptimizelyDataFileLoaded"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="onOptimizelyEditorEnabled"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="onOptimizelyExperimentViewed"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="experimentState" type="com.optimizely.integration.OptimizelyExperimentData">
+</parameter>
+</method>
+<method name="onOptimizelyExperimentVisited"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="experimentState" type="com.optimizely.integration.OptimizelyExperimentData">
+</parameter>
+</method>
+<method name="onOptimizelyFailedToStart"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="errorMessage" type="java.lang.String">
+</parameter>
+</method>
+<method name="onOptimizelyStarted"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+<interface name="OptimizelyEventListener"
+ abstract="true"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="onGoalTriggered"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="description" type="java.lang.String">
+</parameter>
+<parameter name="affectedExperiments" type="java.util.List&lt;com.optimizely.integration.OptimizelyExperimentData&gt;">
+</parameter>
+</method>
+<method name="onMessage"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="source" type="java.lang.String">
+</parameter>
+<parameter name="messageType" type="java.lang.String">
+</parameter>
+<parameter name="payload" type="android.os.Bundle">
+</parameter>
+</method>
+<method name="onOptimizelyDataFileLoaded"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="onOptimizelyEditorEnabled"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="onOptimizelyExperimentViewed"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="experimentState" type="com.optimizely.integration.OptimizelyExperimentData">
+</parameter>
+</method>
+<method name="onOptimizelyExperimentVisited"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="experimentState" type="com.optimizely.integration.OptimizelyExperimentData">
+</parameter>
+</method>
+<method name="onOptimizelyFailedToStart"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="errorMessage" type="java.lang.String">
+</parameter>
+</method>
+<method name="onOptimizelyStarted"
+ return="void"
+ abstract="true"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</interface>
+<class name="OptimizelyExperimentData"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="OptimizelyExperimentData"
+ type="com.optimizely.integration.OptimizelyExperimentData"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<field name="audiences"
+ type="java.util.List"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="enabled"
+ type="java.lang.Boolean"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="experimentId"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="experimentName"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="locked"
+ type="boolean"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="state"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="targetingConditions"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="targetingMet"
+ type="boolean"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="variationId"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="variationName"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="visitedCount"
+ type="int"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="visitedEver"
+ type="boolean"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="visitedThisSession"
+ type="boolean"
+ transient="false"
+ volatile="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+</class>
+<class name="OptimizelyExperimentData.OptimizelyExperimentDataState"
+ extends="java.lang.Object"
+ abstract="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="OptimizelyExperimentDataState"
+ type="com.optimizely.integration.OptimizelyExperimentData.OptimizelyExperimentDataState"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<field name="OPTIMIZELY_EXPERIMENT_DATA_STATE_DEACTIVATED"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ value="&quot;optimizelyExperimentDataStateDeactivated&quot;"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="OPTIMIZELY_EXPERIMENT_DATA_STATE_DISABLED"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ value="&quot;optimizelyExperimentDataStateDisabled&quot;"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="OPTIMIZELY_EXPERIMENT_DATA_STATE_RUNNING"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ value="&quot;optimizelyExperimentDataStateRunning&quot;"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+</class>
+</package>
+<package name="com.optimizely.integrations.amplitude"
+>
+<class name="OptimizelyAmplitudeIntegration"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="OptimizelyAmplitudeIntegration"
+ type="com.optimizely.integrations.amplitude.OptimizelyAmplitudeIntegration"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<method name="getActivityLifecycleCallbacks"
+ return="android.app.Application.ActivityLifecycleCallbacks"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDependencies"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getOnTouchListener"
+ return="android.view.View.OnTouchListener"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getOptimizelyEventsListener"
+ return="com.optimizely.integration.OptimizelyEventListener"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getPluginId"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getRequiredPermissions"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="android.content.Context">
+</parameter>
+</method>
+<method name="start"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="optimizely" type="com.optimizely.Optimizely">
+</parameter>
+<parameter name="config" type="org.json.JSONObject">
+</parameter>
+</method>
+<method name="stop"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+</package>
+<package name="com.optimizely.integrations.localytics"
+>
+<class name="OptimizelyLocalyticsIntegration"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="OptimizelyLocalyticsIntegration"
+ type="com.optimizely.integrations.localytics.OptimizelyLocalyticsIntegration"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<method name="getActivityLifecycleCallbacks"
+ return="android.app.Application.ActivityLifecycleCallbacks"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDependencies"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getOnTouchListener"
+ return="android.view.View.OnTouchListener"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getOptimizelyEventsListener"
+ return="com.optimizely.integration.OptimizelyEventListener"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getPluginId"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getRequiredPermissions"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="android.content.Context">
+</parameter>
+</method>
+<method name="start"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="optimizely" type="com.optimizely.Optimizely">
+</parameter>
+<parameter name="config" type="org.json.JSONObject">
+</parameter>
+</method>
+<method name="stop"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<field name="EVENT_ATTR_EXP_NAME"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ value="&quot;Name&quot;"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="EVENT_ATTR_EXP_NAME_AND_VAR_NAME"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ value="&quot;Name + Variation&quot;"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="EVENT_ATTR_EXP_VAR_NAME"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ value="&quot;Variation Name&quot;"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="EVENT_NAME"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ value="&quot;Optimizely Experiment Visited&quot;"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="LOCALYTICS_COMPONENT"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ value="&quot;Optimizely Localytics Integration&quot;"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="PLUGIN_ID"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ value="&quot;localytics_mobile&quot;"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="PROFILE_ATTR_NAME"
+ type="java.lang.String"
+ transient="false"
+ volatile="false"
+ value="&quot;Optimizely Experiments Visited&quot;"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+</class>
+</package>
+<package name="com.optimizely.integrations.mixpanel"
+>
+<class name="OptimizelyMixpanelIntegration"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="OptimizelyMixpanelIntegration"
+ type="com.optimizely.integrations.mixpanel.OptimizelyMixpanelIntegration"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<method name="getActivityLifecycleCallbacks"
+ return="android.app.Application.ActivityLifecycleCallbacks"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDependencies"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getOnTouchListener"
+ return="android.view.View.OnTouchListener"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getOptimizelyEventsListener"
+ return="com.optimizely.integration.OptimizelyEventListener"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getPluginId"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getRequiredPermissions"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="android.content.Context">
+</parameter>
+</method>
+<method name="reportTrack"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="s" type="java.lang.String">
+</parameter>
+</method>
+<method name="start"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="optimizely" type="com.optimizely.Optimizely">
+</parameter>
+<parameter name="config" type="org.json.JSONObject">
+</parameter>
+</method>
+<method name="stop"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+</package>
+<package name="com.optimizely.integrations.universalanalytics"
+>
+<class name="OptimizelyUniversalAnalyticsIntegration"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<constructor name="OptimizelyUniversalAnalyticsIntegration"
+ type="com.optimizely.integrations.universalanalytics.OptimizelyUniversalAnalyticsIntegration"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</constructor>
+<method name="getActivityLifecycleCallbacks"
+ return="android.app.Application.ActivityLifecycleCallbacks"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDependencies"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getOnTouchListener"
+ return="android.view.View.OnTouchListener"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getOptimizelyEventsListener"
+ return="com.optimizely.integration.OptimizelyEventListener"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getPluginId"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getRequiredPermissions"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="android.content.Context">
+</parameter>
+</method>
+<method name="setTracker"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="tracker" type="Tracker">
+</parameter>
+</method>
+<method name="start"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="optimizely" type="com.optimizely.Optimizely">
+</parameter>
+<parameter name="config" type="org.json.JSONObject">
+</parameter>
+</method>
+<method name="stop"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+</package>
+</api>

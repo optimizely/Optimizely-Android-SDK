@@ -1,9 +1,23 @@
+//
+//  MainActivity
+//  TutorialApp
+//
+//  This Optimizely Tutorial app will teach you how to use Optimizely's iOS SDK's
+//  3 key features:
+//     - Visual Editor
+//     - Live Variables
+//     - Code Blocks
+//
+//  Created by Pam Ongchin on 10/19/15.
+//  Copyright (c) 2015 Optimizely. All rights reserved.
+//
+
 package com.optimizely.tutorialapp;
 
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,9 +31,10 @@ import com.optimizely.integration.OptimizelyExperimentData;
 import java.util.List;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     private static String tag = "OPTLY";
+    private static String returning_customer = "true";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,9 +51,43 @@ public class MainActivity extends ActionBarActivity {
 
         TextView welcomeText = (TextView) findViewById(R.id.welcome_text);
         welcomeText.setTypeface(tf);
-        Optimizely.startOptimizelyAsync("AAM7hIkBAJn-txU9ElPJEtwHE1IQLXMA~2225361645", getApplication(), mOptimizelyEventListener);
+
+
+        // Below are instructions for initial setup, lines marked as optional
+        // are options, lines marked as required are required
+        // Throughout the code, you can search for [OPTIMIZELY] to find reference code
+        // related to Optimizely
+        // All lines that say [OPTIMIZELY] (REQUIRED) are necessary for you to
+        // get started!
+
+        // [OPTIMIZELY] (OPTIONAL) Add this line of code to debug issues.  Please note that this line of code
+        // should not be included when your app is in production
+        Optimizely.setVerboseLogging(true);
+
+        // [OPTIMIZELY] (OPTIONAL) Example Custom Tag
+        // If you have information about your users on the client side in your app, based on those
+        // values you can set the value of the custom tag.
+        // These values should be set prior to startOptimizely or before refreshExperiments is called.
+        // For the refreshExperiments example, you can go to the CodeBlocksActivity.java file.
+        returning_customer = "true";
+        Optimizely.setCustomTag("returning_customer", returning_customer);
+
+        // [OPTIMIZELY] (OPTIONAL) Customize how often the datafile is downloaded (By default network calls are made every 2 minutes)
+        // Optimizely.setDataFileDownloadInterval(120);
+
+        // [OPTIMIZELY] (REQUIRED) Replace this line with your API token, and don't forget to go to
+        // your AndroidManifest.xml (e.g. it should look like optly123456, replace 123456 with your project id)
+        // Replace <YOUR_API_TOKEN> with your API Token from your Optimizely Dashboard
+        // optimizely.com/dashboard.  It should look like: "AAMseu0A6cJKXYL7RiH_TgxkvTRMOCvS~123456"
+
+        Optimizely.startOptimizelyWithAPIToken("<API_TOKEN>", getApplication(), mOptimizelyEventListener);
 
     }
+
+    // [OPTIMIZELY] (OPTIONAL) The following listeners will trigger when certain events happen in the SDK
+    // such as when an experiment is running.  To learn more, you can refer to the following article:
+    // https://help.optimizely.com/hc/en-us/articles/205014107-How-Optimizely-s-SDKs-Work-SDK-Order-of-execution-experiment-activation-and-goals
+
     private static DefaultOptimizelyEventListener mOptimizelyEventListener = new DefaultOptimizelyEventListener() {
         public void onOptimizelyStarted() {
             Log.i(tag, "Optimizely started.");

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.optimizely.tutorialapp" >
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -19,16 +20,22 @@
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="optly2225361645" />
+
+
+                <!-- [OPTIMIZELY] (REQUIRED) Replace <PROJECT_ID> with your project id (e.g. optly123456)-->
+                <data android:scheme="optly<PROJECT_ID>" />
+
+
+
             </intent-filter>
         </activity>
         <activity
             android:name=".LandingTableActivity"
             android:label="@string/title_activity_landing_table" >
         </activity>
-
         <activity
             android:name=".VisualEditorActivity"
             android:label="@string/title_activity_visual_editor" >
@@ -40,6 +47,10 @@
         <activity
             android:name=".LiveVariablesListActivity"
             android:label="LiveVariablesListActivity" >
+        </activity>
+        <activity
+            android:name=".CodeBlocksActivity2"
+            android:label="@string/title_activity_code_blocks2" >
         </activity>
     </application>
 
