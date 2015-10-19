@@ -17,6 +17,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.DEFAULT" />
+                <!-- Existing intent-filters -->
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -25,8 +26,8 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
 
-                <!-- [OPTIMIZELY] (REQUIRED) Replace <PROJECT_ID> with your project id (e.g. optly123456)-->
-                <data android:scheme="optly<PROJECT_ID>" />
+                <!-- [OPTIMIZELY] (REQUIRED) Replace [PROJECT_ID] with your project id (e.g. optly123456)-->
+                <data android:scheme="optly[PROJECT_ID]" />
 
 
 
