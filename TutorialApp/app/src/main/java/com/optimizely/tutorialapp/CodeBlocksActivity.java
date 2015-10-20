@@ -101,6 +101,15 @@ public class CodeBlocksActivity extends AppCompatActivity {
             }
         });
 
+        // [OPTIMIZELY] Example track event
+        Optimizely.trackEvent("signed_up");
+
+
+        // [OPTIMIZELY] Example revenue call which registers a $2 purchase
+        // revenue = price * 100
+        int revenue = 2 * 100;
+        Optimizely.trackRevenueWithDescription(revenue, "purchase_made");
+
 
     }
 }

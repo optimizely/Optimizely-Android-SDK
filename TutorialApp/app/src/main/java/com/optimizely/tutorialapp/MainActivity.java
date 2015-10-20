@@ -80,7 +80,11 @@ public class MainActivity extends AppCompatActivity {
         // Replace <YOUR_API_TOKEN> with your API Token from your Optimizely Dashboard
         // optimizely.com/dashboard.  It should look like: "AAMseu0A6cJKXYL7RiH_TgxkvTRMOCvS~123456"
 
-        Optimizely.startOptimizelyWithAPIToken("<API_TOKEN>", getApplication(), mOptimizelyEventListener);
+        Optimizely.startOptimizelyWithAPIToken(<YOUR_API_TOKEN>, getApplication(), mOptimizelyEventListener);
+
+        // [OPTIMIZELY] (OPTIONAL) Register the plugin for the integration you would like to use
+        // For information, refer to: http://developers.optimizely.com/android/reference/index.html#analytics-integrations
+        // Optimizely.registerPlugin(new Optimizely<ANALYTICS_PROVIDER>Integration());
 
     }
 
