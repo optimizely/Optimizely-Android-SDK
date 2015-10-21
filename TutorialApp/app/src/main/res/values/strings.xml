@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">TutorialApp</string>
+
+    <string name="welcome_title">Welcome to the Optimizely Tutorial App</string>
+    <string name="welcome_text">Please open your browser to developers.optimizely.com/android/guide/index.html</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_landing_table">LandingTableActivity</string>
+    <string name="button_gotit">Got it!  Let\'s Go!</string>
+    <string name="title_activity_single_variation_type">singleVariationType</string>
+    <string name="visual_editor_desc">Make changes, no code needed</string>
+    <string name="live_variables_desc">Change your users\' experience</string>
+    <string name="code_blocks_desc">Test entirely custom features</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="discount_tagline">TAKE 25% OFF FROM NOW UNTIL 9/15</string>
+    <string name="title_activity_visual_editor">VisualEditorActivity</string>
+    <string name="title_activity_live_variables">LiveVariablesActivity</string>
+    <string name="title_activity_code_blocks">CodeBlocksActivity</string>
+    <string name="discount_string">25% OFF YOUR FIRST ORDER IF YOU SIGN UP BY 9/1</string>
+    <string name="title_activity_live_variables_list">LiveVariablesListActivity</string>
+    <string name="live_variables_title">Live Variables</string>
+    <string name="code_blocks_string">A company that helps you buy widgets.</string>
+    <string name="code_blocks_signin">Sign In</string>
+    <string name="code_blocks_company">We sell gears.</string>
+    <string name="take_me_to_widgets">Take me to the widgets</string>
+
+
+    <string name="msrp_1">3.99</string>
+    <string name="msrp_2">6.99</string>
+    <string name="msrp_3">9.99</string>
+    <string name="msrp_4">12.99</string>
+    <string name="msrp_5">15.99</string>
+    <string name="msrp_6">18.99</string>
+
+    <string name="sale_1">3.99</string>
+    <string name="sale_2">6.99</string>
+    <string name="sale_3">9.99</string>
+    <string name="sale_4">12.99</string>
+    <string name="sale_5">15.99</string>
+    <string name="sale_6">18.99</string>
+
+    <string name="item_name_1">Standard Widget</string>
+    <string name="item_name_2">Standard Widget Pack</string>
+    <string name="item_name_3">Deluxe Widget</string>
+    <string name="item_name_4">Deluxe Widget Pack</string>
+    <string name="item_name_5">Premium Widget</string>
+    <string name="item_name_6">Premium Widget Pack</string>
+
+    <string-array
+        name="msrp_array">
+        <item>@string/msrp_1</item>
+        <item>@string/msrp_2</item>
+        <item>@string/msrp_3</item>
+        <item>@string/msrp_4</item>
+        <item>@string/msrp_5</item>
+        <item>@string/msrp_6</item>
+    </string-array>
+
+    <string-array
+        name="sale_array">
+        <item>@string/sale_1</item>
+        <item>@string/sale_2</item>
+        <item>@string/sale_3</item>
+        <item>@string/sale_4</item>
+        <item>@string/sale_5</item>
+        <item>@string/sale_6</item>
+    </string-array>
+
+    <string-array
+        name="item_name_array">
+        <item>@string/item_name_1</item>
+        <item>@string/item_name_2</item>
+        <item>@string/item_name_3</item>
+        <item>@string/item_name_4</item>
+        <item>@string/item_name_5</item>
+        <item>@string/item_name_6</item>
+    </string-array>
+    <string name="title_activity_code_blocks2">CodeBlocksActivity2</string>
+
+
+</resources>
