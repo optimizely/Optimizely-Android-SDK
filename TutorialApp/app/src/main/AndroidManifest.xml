@@ -27,7 +27,7 @@
 
 
                 <!-- [OPTIMIZELY] (REQUIRED) Replace [PROJECT_ID] with your project id (e.g. optly123456)-->
-                <data android:scheme="[PROJECT_ID]" />
+                <data android:scheme="optly[PROJECT_ID]" />
 
 
 
