@@ -80,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
         // Replace <YOUR_API_TOKEN> with your API Token from your Optimizely Dashboard
         // optimizely.com/dashboard.  It should look like: "AAMseu0A6cJKXYL7RiH_TgxkvTRMOCvS~123456"
 
+
         Optimizely.startOptimizelyWithAPIToken(<YOUR_API_TOKEN>, getApplication(), mOptimizelyEventListener);
 
         // [OPTIMIZELY] (OPTIONAL) Register the plugin for the integration you would like to use
