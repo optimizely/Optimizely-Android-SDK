@@ -1,4 +1,4 @@
-package com.optimizely.tutorialapp;
+package com.optly.tutorialapp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

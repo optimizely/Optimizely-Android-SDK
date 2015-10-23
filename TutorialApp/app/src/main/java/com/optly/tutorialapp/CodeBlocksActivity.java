@@ -12,7 +12,7 @@
 //  Copyright (c) 2015 Optimizely. All rights reserved.
 //
 
-package com.optimizely.tutorialapp;
+package com.optly.tutorialapp;
 
 import android.content.Intent;
 import android.os.Bundle;

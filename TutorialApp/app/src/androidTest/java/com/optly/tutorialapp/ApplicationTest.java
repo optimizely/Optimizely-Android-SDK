@@ -1,4 +1,4 @@
-package com.optimizely.tutorialapp;
+package com.optly.tutorialapp;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

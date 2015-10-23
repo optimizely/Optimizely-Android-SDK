@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.optimizely.tutorialapp"
+        applicationId "com.optly.tutorialapp"
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1
