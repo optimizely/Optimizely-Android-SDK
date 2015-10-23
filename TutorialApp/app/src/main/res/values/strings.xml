@@ -16,7 +16,7 @@
     <string name="title_activity_visual_editor">VisualEditorActivity</string>
     <string name="title_activity_live_variables">LiveVariablesActivity</string>
     <string name="title_activity_code_blocks">CodeBlocksActivity</string>
-    <string name="discount_string">25% OFF YOUR FIRST ORDER IF YOU SIGN UP BY 9/1</string>
+    <string name="discount_string">% OFF YOUR FIRST ORDER IF YOU SIGN UP BY 9/1</string>
     <string name="title_activity_live_variables_list">LiveVariablesListActivity</string>
     <string name="live_variables_title">Live Variables</string>
     <string name="code_blocks_string">A company that helps you buy widgets.</string>

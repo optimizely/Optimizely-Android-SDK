@@ -86,6 +86,8 @@ public class LiveVariablesAdapter extends BaseAdapter {
             double discount = 0.25;
 
 
+
+
             TextView saleView = (TextView) gridView.findViewById(R.id.text_view_sales_price);
 
             // [OPTIMIZELY] Examples of how to use live variable values (Part 2 of 2)
