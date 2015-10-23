@@ -6,7 +6,7 @@ android:paddingRight="0dp"
 android:paddingTop="0dp"
 android:paddingBottom="0dp"
 android:id="@+id/activity_live_variables_main_layout"
-tools:context="com.optimizely.tutorialapp.LiveVariablesListActivity"
+tools:context="com.optly.tutorialapp.LiveVariablesListActivity"
     android:background="#cbdae5">
 
     <TextView
