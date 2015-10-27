@@ -1,6 +1,9 @@
 #1.2.4 (Oct 16, 2015)
 ## Bugfixes
  * Added Fabric properties to core as well as bundle
+
+## Breaking changes
+ * `Optimizely.startOptimizely(String, Application)` is deprecated in favor of `Optimizely.startOptimizelyWithAPIToken(String, Application)`
  
 #1.2.3 (Oct 15, 2015)
 ## Bugfixes
