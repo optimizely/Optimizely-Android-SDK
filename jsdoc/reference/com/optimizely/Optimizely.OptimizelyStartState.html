@@ -397,14 +397,16 @@ Summary:
     <tr class="alt-color api apilevel-" >
         <td class="jd-descrcol"><a href="../../com/optimizely/Optimizely.OptimizelyStartState.html">Optimizely.OptimizelyStartState</a>&nbsp;</td>
         <td class="jd-linkcol">NOT_STARTED&nbsp;</td>
-        <td class="jd-descrcol" width="100%">Optimizely is not started &nbsp;</td>
+        <td class="jd-descrcol" width="100%">Optimizely is not started
+&nbsp;</td>
     </tr>
     
     
     <tr class=" api apilevel-" >
         <td class="jd-descrcol"><a href="../../com/optimizely/Optimizely.OptimizelyStartState.html">Optimizely.OptimizelyStartState</a>&nbsp;</td>
         <td class="jd-linkcol">STARTED&nbsp;</td>
-        <td class="jd-descrcol" width="100%">Optimizely has started and all required components are initlialized &nbsp;</td>
+        <td class="jd-descrcol" width="100%">Optimizely has started and all required components are initlialized
+&nbsp;</td>
     </tr>
     
     
@@ -412,6 +414,14 @@ Summary:
         <td class="jd-descrcol"><a href="../../com/optimizely/Optimizely.OptimizelyStartState.html">Optimizely.OptimizelyStartState</a>&nbsp;</td>
         <td class="jd-linkcol">STARTING&nbsp;</td>
         <td class="jd-descrcol" width="100%">Optimizely is starting and initializing required components.&nbsp;</td>
+    </tr>
+    
+    
+    <tr class=" api apilevel-" >
+        <td class="jd-descrcol"><a href="../../com/optimizely/Optimizely.OptimizelyStartState.html">Optimizely.OptimizelyStartState</a>&nbsp;</td>
+        <td class="jd-linkcol">STOPPED&nbsp;</td>
+        <td class="jd-descrcol" width="100%">Optimizely has been explicitly stopped
+&nbsp;</td>
     </tr>
     
     
@@ -526,13 +536,13 @@ From class
         <td class="jd-typecol">
             
             
-            final
+            
             
             
             int
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad">compareTo</span>(E arg0)
+        <span class="sympad">compareTo</span>(Object arg0)
         
   </td></tr>
 
@@ -542,13 +552,13 @@ From class
         <td class="jd-typecol">
             
             
-            
+            final
             
             
             int
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad">compareTo</span>(Object arg0)
+        <span class="sympad">compareTo</span>(E arg0)
         
   </td></tr>
 
@@ -846,7 +856,7 @@ From class
             void
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad">wait</span>(long arg0, int arg1)
+        <span class="sympad">wait</span>()
         
   </td></tr>
 
@@ -862,7 +872,7 @@ From class
             void
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad">wait</span>(long arg0)
+        <span class="sympad">wait</span>(long arg0, int arg1)
         
   </td></tr>
 
@@ -878,7 +888,7 @@ From class
             void
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad">wait</span>()
+        <span class="sympad">wait</span>(long arg0)
         
   </td></tr>
 
@@ -981,7 +991,8 @@ From interface
       </div>
     <div class="jd-details-descr">
       
-  <div class="jd-tagdata jd-tagdescr"><p>Optimizely is not started </p></div>
+  <div class="jd-tagdata jd-tagdescr"><p>Optimizely is not started
+</p></div>
 
     
     </div>
@@ -1011,7 +1022,8 @@ From interface
       </div>
     <div class="jd-details-descr">
       
-  <div class="jd-tagdata jd-tagdescr"><p>Optimizely has started and all required components are initlialized </p></div>
+  <div class="jd-tagdata jd-tagdescr"><p>Optimizely has started and all required components are initlialized
+</p></div>
 
     
     </div>
@@ -1043,6 +1055,37 @@ From interface
       
   <div class="jd-tagdata jd-tagdescr"><p>Optimizely is starting and initializing required components.
  This helps to avoid double initialization.
+</p></div>
+
+    
+    </div>
+</div>
+
+
+
+<a id="STOPPED"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+        final 
+        <a href="../../com/optimizely/Optimizely.OptimizelyStartState.html">Optimizely.OptimizelyStartState</a>
+      </span>
+        STOPPED
+    </h4>
+      <div class="api-level">
+        
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Optimizely has been explicitly stopped
 </p></div>
 
     

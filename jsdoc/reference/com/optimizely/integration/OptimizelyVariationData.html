@@ -57,7 +57,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.ico" />
 <title>
 
-  OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder
+  OptimizelyVariationData
 
 
 </title>
@@ -142,11 +142,11 @@
                 
     <li class="api apilevel-">
   <a href="../../../com/optimizely/package-summary.html">com.optimizely</a></li>
-    <li class="selected api apilevel-">
+    <li class="api apilevel-">
   <a href="../../../com/optimizely/CodeBlocks/package-summary.html">com.optimizely.CodeBlocks</a></li>
     <li class="api apilevel-">
   <a href="../../../com/optimizely/Variable/package-summary.html">com.optimizely.Variable</a></li>
-    <li class="api apilevel-">
+    <li class="selected api apilevel-">
   <a href="../../../com/optimizely/integration/package-summary.html">com.optimizely.integration</a></li>
     <li class="api apilevel-">
   <a href="../../../com/optimizely/integrations/amplitude/package-summary.html">com.optimizely.integrations.amplitude</a></li>
@@ -164,17 +164,16 @@
               
     <li><h2>Interfaces</h2>
       <ul>
-          <li class="api apilevel-"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.Callback.html">OptimizelyCodeBlock.Callback</a></li>
+          <li class="api apilevel-"><a href="../../../com/optimizely/integration/OptimizelyEventListener.html">OptimizelyEventListener</a></li>
       </ul>
     </li>
               
     <li><h2>Classes</h2>
       <ul>
-          <li class="api apilevel-"><a href="../../../com/optimizely/CodeBlocks/CodeBranch.html">CodeBranch</a></li>
-          <li class="api apilevel-"><a href="../../../com/optimizely/CodeBlocks/DefaultCodeBranch.html">DefaultCodeBranch</a></li>
-          <li class="api apilevel-"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.html">OptimizelyCodeBlock</a></li>
-          <li class="api apilevel-"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.html">OptimizelyCodeBlocks</a></li>
-          <li class="selected api apilevel-"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder.html">OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder</a></li>
+          <li class="api apilevel-"><a href="../../../com/optimizely/integration/DefaultOptimizelyEventListener.html">DefaultOptimizelyEventListener</a></li>
+          <li class="api apilevel-"><a href="../../../com/optimizely/integration/OptimizelyExperimentData.html">OptimizelyExperimentData</a></li>
+          <li class="api apilevel-"><a href="../../../com/optimizely/integration/OptimizelyExperimentData.OptimizelyExperimentDataState.html">OptimizelyExperimentData.OptimizelyExperimentDataState</a></li>
+          <li class="selected api apilevel-"><a href="../../../com/optimizely/integration/OptimizelyVariationData.html">OptimizelyVariationData</a></li>
       </ul>
     </li>
               
@@ -237,15 +236,15 @@ Summary:
 
 
 
-
-
-  <a href="#pubctors">Ctors</a>
+  <a href="#lfields">Fields</a>
   
 
 
 
-  &#124; <a href="#pubmethods">Methods</a>
+  &#124; <a href="#pubctors">Ctors</a>
   
+
+
 
 
 
@@ -273,7 +272,7 @@ Summary:
      
     
     class
-<h1>OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder</h1>
+<h1>OptimizelyVariationData</h1>
 
 
 
@@ -306,7 +305,7 @@ Summary:
         
             <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;&#x21b3;</td>
          	
-        <td colspan="1" class="jd-inheritance-class-cell">com.optimizely.CodeBlocks.OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder</td>
+        <td colspan="1" class="jd-inheritance-class-cell">com.optimizely.integration.OptimizelyVariationData</td>
     </tr>
     
 
@@ -320,6 +319,10 @@ Summary:
 
 <div class="jd-descr">
 
+
+<h2>Class Overview</h2>
+<p>Data pertaining to one of the variations for a given Optimizely Experiment
+</p>
 
 
 
@@ -364,6 +367,87 @@ Summary:
 
 
 
+<!-- =========== FIELD SUMMARY =========== -->
+<table id="lfields" class="jd-sumtable"><tr><th colspan="12">Fields</th></tr>
+
+
+    
+      <tr class="alt-color api apilevel-" >
+          <td class="jd-typecol">
+          public
+          
+          
+          JSONArray</td>
+          <td class="jd-linkcol"><a href="../../../com/optimizely/integration/OptimizelyVariationData.html#codeBlocks">codeBlocks</a></td>
+          <td class="jd-descrcol" width="100%">A JSONArray describing the code blocks that are part of this variation
+</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-" >
+          <td class="jd-typecol">
+          public
+          
+          
+          String</td>
+          <td class="jd-linkcol"><a href="../../../com/optimizely/integration/OptimizelyVariationData.html#id">id</a></td>
+          <td class="jd-descrcol" width="100%">The variation's id
+</td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-" >
+          <td class="jd-typecol">
+          public
+          
+          
+          String</td>
+          <td class="jd-linkcol"><a href="../../../com/optimizely/integration/OptimizelyVariationData.html#name">name</a></td>
+          <td class="jd-descrcol" width="100%">The variation's name
+</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-" >
+          <td class="jd-typecol">
+          public
+          
+          
+          Double</td>
+          <td class="jd-linkcol"><a href="../../../com/optimizely/integration/OptimizelyVariationData.html#traffic">traffic</a></td>
+          <td class="jd-descrcol" width="100%">The traffic allocation for this variation
+</td>
+      </tr>
+      
+    
+      <tr class="alt-color api apilevel-" >
+          <td class="jd-typecol">
+          public
+          
+          
+          JSONArray</td>
+          <td class="jd-linkcol"><a href="../../../com/optimizely/integration/OptimizelyVariationData.html#variables">variables</a></td>
+          <td class="jd-descrcol" width="100%">A JSONArray describing the live variables associated with this experiment
+</td>
+      </tr>
+      
+    
+      <tr class=" api apilevel-" >
+          <td class="jd-typecol">
+          public
+          
+          
+          JSONArray</td>
+          <td class="jd-linkcol"><a href="../../../com/optimizely/integration/OptimizelyVariationData.html#views">views</a></td>
+          <td class="jd-descrcol" width="100%">A JSONArray describing the views associated with this experiment
+</td>
+      </tr>
+      
+    
+
+</table>
+
+
 
 
 
@@ -385,7 +469,7 @@ Summary:
             
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder.html#OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder(java.lang.String)">OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder</a></span>(String blockName)
+        <span class="sympad"><a href="../../../com/optimizely/integration/OptimizelyVariationData.html#OptimizelyVariationData()">OptimizelyVariationData</a></span>()
         
   </td></tr>
 
@@ -396,47 +480,6 @@ Summary:
 
 
 
-
-
-<!-- ========== METHOD SUMMARY =========== -->
-<table id="pubmethods" class="jd-sumtable"><tr><th colspan="12">Public Methods</th></tr>
-
-
-
-	 
-    <tr class="alt-color api apilevel-" >
-        <td class="jd-typecol">
-            
-            
-            
-            
-            
-            <a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder.html">OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder</a>
-        </td>
-        <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder.html#setCallback(com.optimizely.CodeBlocks.OptimizelyCodeBlock.Callback)">setCallback</a></span>(<a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.Callback.html">OptimizelyCodeBlock.Callback</a> callback)
-        
-  </td></tr>
-
-
-	 
-    <tr class=" api apilevel-" >
-        <td class="jd-typecol">
-            
-            
-            
-            
-            
-            <a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.html">OptimizelyCodeBlock</a>
-        </td>
-        <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder.html#withBranchNames(java.lang.String...)">withBranchNames</a></span>(String... branchNames)
-        
-  </td></tr>
-
-
-
-</table>
 
 
 
@@ -677,6 +720,199 @@ From class
 <!-- Fields -->
 
 
+<!-- ========= FIELD DETAIL ======== -->
+<h2>Fields</h2>
+
+
+
+
+<a id="codeBlocks"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        JSONArray
+      </span>
+        codeBlocks
+    </h4>
+      <div class="api-level">
+        
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>A JSONArray describing the code blocks that are part of this variation
+</p></div>
+
+    
+    </div>
+</div>
+
+
+
+<a id="id"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        String
+      </span>
+        id
+    </h4>
+      <div class="api-level">
+        
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>The variation's id
+</p></div>
+
+    
+    </div>
+</div>
+
+
+
+<a id="name"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        String
+      </span>
+        name
+    </h4>
+      <div class="api-level">
+        
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>The variation's name
+</p></div>
+
+    
+    </div>
+</div>
+
+
+
+<a id="traffic"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        Double
+      </span>
+        traffic
+    </h4>
+      <div class="api-level">
+        
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>The traffic allocation for this variation
+</p></div>
+
+    
+    </div>
+</div>
+
+
+
+<a id="variables"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        JSONArray
+      </span>
+        variables
+    </h4>
+      <div class="api-level">
+        
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>A JSONArray describing the live variables associated with this experiment
+</p></div>
+
+    
+    </div>
+</div>
+
+
+
+<a id="views"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+        JSONArray
+      </span>
+        views
+    </h4>
+      <div class="api-level">
+        
+
+
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>A JSONArray describing the views associated with this experiment
+</p></div>
+
+    
+    </div>
+</div>
+
+
+
+
 <!-- Public ctors -->
 
 
@@ -685,7 +921,7 @@ From class
 
 
 
-<a id="OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder(java.lang.String)"></a>
+<a id="OptimizelyVariationData()"></a>
 
 <div class="jd-details api apilevel-"> 
     <h4 class="jd-details-title">
@@ -697,8 +933,8 @@ From class
          
         
       </span>
-      <span class="sympad">OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder</span>
-      <span class="normal">(String blockName)</span>
+      <span class="sympad">OptimizelyVariationData</span>
+      <span class="normal">()</span>
     </h4>
       <div class="api-level">
         <div>
@@ -726,73 +962,6 @@ From class
 
 <!-- ========= METHOD DETAIL ======== -->
 <!-- Public methdos -->
-
-<h2>Public Methods</h2>
-
-
-
-<a id="setCallback(com.optimizely.CodeBlocks.OptimizelyCodeBlock.Callback)"></a>
-
-<div class="jd-details api apilevel-"> 
-    <h4 class="jd-details-title">
-      <span class="normal">
-        public 
-         
-         
-         
-         
-        <a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder.html">OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder</a>
-      </span>
-      <span class="sympad">setCallback</span>
-      <span class="normal">(<a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.Callback.html">OptimizelyCodeBlock.Callback</a> callback)</span>
-    </h4>
-      <div class="api-level">
-        <div>
-
-</div>
-        
-  
-
-      </div>
-    <div class="jd-details-descr">
-      
-  <div class="jd-tagdata jd-tagdescr"><p></p></div>
-
-    </div>
-</div>
-
-
-<a id="withBranchNames(java.lang.String...)"></a>
-
-<div class="jd-details api apilevel-"> 
-    <h4 class="jd-details-title">
-      <span class="normal">
-        public 
-         
-         
-         
-         
-        <a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.html">OptimizelyCodeBlock</a>
-      </span>
-      <span class="sympad">withBranchNames</span>
-      <span class="normal">(String... branchNames)</span>
-    </h4>
-      <div class="api-level">
-        <div>
-
-</div>
-        
-  
-
-      </div>
-    <div class="jd-details-descr">
-      
-  <div class="jd-tagdata jd-tagdescr"><p></p></div>
-
-    </div>
-</div>
-
-
 
 
 

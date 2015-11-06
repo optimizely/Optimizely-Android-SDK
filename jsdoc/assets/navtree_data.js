@@ -9,7 +9,7 @@ var NAVTREE_DATA =
 , "" ], [ "Classes", null, [ [ "LiveVariable", "com/optimizely/Variable/LiveVariable.html", null, "" ] ]
 , "" ] ]
 , "" ], [ "com.optimizely.integration", "com/optimizely/integration/package-summary.html", [ [ "Interfaces", null, [ [ "OptimizelyEventListener", "com/optimizely/integration/OptimizelyEventListener.html", null, "" ] ]
-, "" ], [ "Classes", null, [ [ "DefaultOptimizelyEventListener", "com/optimizely/integration/DefaultOptimizelyEventListener.html", null, "" ], [ "OptimizelyExperimentData", "com/optimizely/integration/OptimizelyExperimentData.html", null, "" ], [ "OptimizelyExperimentData.OptimizelyExperimentDataState", "com/optimizely/integration/OptimizelyExperimentData.OptimizelyExperimentDataState.html", null, "" ] ]
+, "" ], [ "Classes", null, [ [ "DefaultOptimizelyEventListener", "com/optimizely/integration/DefaultOptimizelyEventListener.html", null, "" ], [ "OptimizelyExperimentData", "com/optimizely/integration/OptimizelyExperimentData.html", null, "" ], [ "OptimizelyExperimentData.OptimizelyExperimentDataState", "com/optimizely/integration/OptimizelyExperimentData.OptimizelyExperimentDataState.html", null, "" ], [ "OptimizelyVariationData", "com/optimizely/integration/OptimizelyVariationData.html", null, "" ] ]
 , "" ] ]
 , "" ], [ "com.optimizely.integrations.amplitude", "com/optimizely/integrations/amplitude/package-summary.html", [ [ "Classes", null, [ [ "OptimizelyAmplitudeIntegration", "com/optimizely/integrations/amplitude/OptimizelyAmplitudeIntegration.html", null, "" ] ]
 , "" ] ]

@@ -17,13 +17,14 @@ var DATA = [
       { id:15, label:"com.optimizely.integration.OptimizelyEventListener", link:"com/optimizely/integration/OptimizelyEventListener.html", type:"class" },
       { id:16, label:"com.optimizely.integration.OptimizelyExperimentData", link:"com/optimizely/integration/OptimizelyExperimentData.html", type:"class" },
       { id:17, label:"com.optimizely.integration.OptimizelyExperimentData.OptimizelyExperimentDataState", link:"com/optimizely/integration/OptimizelyExperimentData.OptimizelyExperimentDataState.html", type:"class" },
-      { id:18, label:"com.optimizely.integrations.amplitude", link:"com/optimizely/integrations/amplitude/package-summary.html", type:"package" },
-      { id:19, label:"com.optimizely.integrations.amplitude.OptimizelyAmplitudeIntegration", link:"com/optimizely/integrations/amplitude/OptimizelyAmplitudeIntegration.html", type:"class" },
-      { id:20, label:"com.optimizely.integrations.localytics", link:"com/optimizely/integrations/localytics/package-summary.html", type:"package" },
-      { id:21, label:"com.optimizely.integrations.localytics.OptimizelyLocalyticsIntegration", link:"com/optimizely/integrations/localytics/OptimizelyLocalyticsIntegration.html", type:"class" },
-      { id:22, label:"com.optimizely.integrations.mixpanel", link:"com/optimizely/integrations/mixpanel/package-summary.html", type:"package" },
-      { id:23, label:"com.optimizely.integrations.mixpanel.OptimizelyMixpanelIntegration", link:"com/optimizely/integrations/mixpanel/OptimizelyMixpanelIntegration.html", type:"class" },
-      { id:24, label:"com.optimizely.integrations.universalanalytics", link:"com/optimizely/integrations/universalanalytics/package-summary.html", type:"package" },
-      { id:25, label:"com.optimizely.integrations.universalanalytics.OptimizelyUniversalAnalyticsIntegration", link:"com/optimizely/integrations/universalanalytics/OptimizelyUniversalAnalyticsIntegration.html", type:"class" }
+      { id:18, label:"com.optimizely.integration.OptimizelyVariationData", link:"com/optimizely/integration/OptimizelyVariationData.html", type:"class" },
+      { id:19, label:"com.optimizely.integrations.amplitude", link:"com/optimizely/integrations/amplitude/package-summary.html", type:"package" },
+      { id:20, label:"com.optimizely.integrations.amplitude.OptimizelyAmplitudeIntegration", link:"com/optimizely/integrations/amplitude/OptimizelyAmplitudeIntegration.html", type:"class" },
+      { id:21, label:"com.optimizely.integrations.localytics", link:"com/optimizely/integrations/localytics/package-summary.html", type:"package" },
+      { id:22, label:"com.optimizely.integrations.localytics.OptimizelyLocalyticsIntegration", link:"com/optimizely/integrations/localytics/OptimizelyLocalyticsIntegration.html", type:"class" },
+      { id:23, label:"com.optimizely.integrations.mixpanel", link:"com/optimizely/integrations/mixpanel/package-summary.html", type:"package" },
+      { id:24, label:"com.optimizely.integrations.mixpanel.OptimizelyMixpanelIntegration", link:"com/optimizely/integrations/mixpanel/OptimizelyMixpanelIntegration.html", type:"class" },
+      { id:25, label:"com.optimizely.integrations.universalanalytics", link:"com/optimizely/integrations/universalanalytics/package-summary.html", type:"package" },
+      { id:26, label:"com.optimizely.integrations.universalanalytics.OptimizelyUniversalAnalyticsIntegration", link:"com/optimizely/integrations/universalanalytics/OptimizelyUniversalAnalyticsIntegration.html", type:"class" }
 
     ];
