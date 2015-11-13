@@ -1,3 +1,9 @@
+# 1.3.1
+November 12, 2015
+*Tweaks:*
+- Optimizely will no longer disable itself if it crashes on the main thread for debug builds, only for release builds
+- Rolled back to OkHttp 2.3.0 due to instability with 2.5.0
+
 # 1.3.0
 November 6, 2015
 
