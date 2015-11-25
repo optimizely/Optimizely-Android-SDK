@@ -1,3 +1,8 @@
+# 1.3.2
+November 24, 2015
+*Tweaks:*
+- Optimizely will not completely disable itself if there are no running esperiments.  This was preventing users from starting the editor.
+
 # 1.3.1
 November 12, 2015
 *Tweaks:*
