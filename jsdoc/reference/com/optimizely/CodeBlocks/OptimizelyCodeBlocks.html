@@ -462,7 +462,7 @@ Summary:
             <a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.html">OptimizelyCodeBlock</a>
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.html#makeCodeBlock(java.lang.String, java.lang.String...)">makeCodeBlock</a></span>(String codeBlockKey, String... branchNames)
+        <span class="sympad"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.html#makeCodeBlock(java.lang.String, com.optimizely.CodeBlocks.OptimizelyCodeBlock.Callback, java.lang.String...)">makeCodeBlock</a></span>(String codeBlockKey, <a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.Callback.html">OptimizelyCodeBlock.Callback</a> callback, String... branchNames)
         
         <div class="jd-descrdiv">Method to create a OptimizelyCodeBlock in client app with name and default code block.</div>
   
@@ -480,7 +480,7 @@ Summary:
             <a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.html">OptimizelyCodeBlock</a>
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.html#makeCodeBlock(java.lang.String, com.optimizely.CodeBlocks.OptimizelyCodeBlock.Callback, java.lang.String...)">makeCodeBlock</a></span>(String codeBlockKey, <a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.Callback.html">OptimizelyCodeBlock.Callback</a> callback, String... branchNames)
+        <span class="sympad"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.html#makeCodeBlock(java.lang.String, java.lang.String...)">makeCodeBlock</a></span>(String codeBlockKey, String... branchNames)
         
         <div class="jd-descrdiv">Method to create a OptimizelyCodeBlock in client app with name and default code block.</div>
   
@@ -678,7 +678,7 @@ From class
             void
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad">wait</span>()
+        <span class="sympad">wait</span>(long arg0, int arg1)
         
   </td></tr>
 
@@ -694,7 +694,7 @@ From class
             void
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad">wait</span>(long arg0, int arg1)
+        <span class="sympad">wait</span>(long arg0)
         
   </td></tr>
 
@@ -710,7 +710,7 @@ From class
             void
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad">wait</span>(long arg0)
+        <span class="sympad">wait</span>()
         
   </td></tr>
 
@@ -847,55 +847,6 @@ From class
 </div>
 
 
-<a id="makeCodeBlock(java.lang.String, java.lang.String...)"></a>
-
-<div class="jd-details api apilevel-"> 
-    <h4 class="jd-details-title">
-      <span class="normal">
-        public 
-         
-         
-         
-         
-        <a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.html">OptimizelyCodeBlock</a>
-      </span>
-      <span class="sympad">makeCodeBlock</span>
-      <span class="normal">(String codeBlockKey, String... branchNames)</span>
-    </h4>
-      <div class="api-level">
-        <div>
-
-</div>
-        
-  
-
-      </div>
-    <div class="jd-details-descr">
-      
-  <div class="jd-tagdata jd-tagdescr"><p>Method to create a OptimizelyCodeBlock in client app with name and default code block.</p></div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Parameters</h5>
-      <table class="jd-tagtable">
-        <tr>
-          <th>codeBlockKey</th>
-          <td>name of the code block.</td>
-        </tr>
-        <tr>
-          <th>branchNames</th>
-          <td>the names of the branches</td>
-        </tr>
-      </table>
-  </div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Returns</h5>
-      <ul class="nolist"><li>new code block
-</li></ul>
-  </div>
-
-    </div>
-</div>
-
-
 <a id="makeCodeBlock(java.lang.String, com.optimizely.CodeBlocks.OptimizelyCodeBlock.Callback, java.lang.String...)"></a>
 
 <div class="jd-details api apilevel-"> 
@@ -934,6 +885,55 @@ From class
         <tr>
           <th>callback</th>
           <td>an instance <code><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.Callback.html">OptimizelyCodeBlock.Callback</a></code></td>
+        </tr>
+        <tr>
+          <th>branchNames</th>
+          <td>the names of the branches</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>new code block
+</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
+<a id="makeCodeBlock(java.lang.String, java.lang.String...)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        <a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.html">OptimizelyCodeBlock</a>
+      </span>
+      <span class="sympad">makeCodeBlock</span>
+      <span class="normal">(String codeBlockKey, String... branchNames)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Method to create a OptimizelyCodeBlock in client app with name and default code block.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>codeBlockKey</th>
+          <td>name of the code block.</td>
         </tr>
         <tr>
           <th>branchNames</th>

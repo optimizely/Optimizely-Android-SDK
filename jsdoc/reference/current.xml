@@ -1390,7 +1390,7 @@
  deprecated="not deprecated"
  visibility="public"
 >
-<constructor name="OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder"
+<constructor name="OptimizelyCodeBlockBuilder"
  type="com.optimizely.CodeBlocks.OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder"
  static="false"
  final="false"
@@ -1900,7 +1900,7 @@
  deprecated="not deprecated"
  visibility="public"
 >
-<constructor name="OptimizelyExperimentData.OptimizelyExperimentDataState"
+<constructor name="OptimizelyExperimentDataState"
  type="com.optimizely.integration.OptimizelyExperimentData.OptimizelyExperimentDataState"
  static="false"
  final="false"

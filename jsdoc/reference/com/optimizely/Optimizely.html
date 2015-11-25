@@ -1,4 +1,53 @@
 <!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -444,7 +493,7 @@ Summary:
             <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Boolean&gt;
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#booleanForKey(java.lang.String, java.lang.Boolean)">booleanForKey</a></span>(String variableKey, Boolean defaultValue)
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#booleanForKey(java.lang.String, java.lang.Boolean, com.optimizely.Variable.LiveVariable.Callback<java.lang.Boolean>)">booleanForKey</a></span>(String variableKey, Boolean defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Boolean&gt; callback)
         
         <div class="jd-descrdiv">Method to create a OptimizelyVariable in client app with type boolean.</div>
   
@@ -462,7 +511,7 @@ Summary:
             <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Boolean&gt;
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#booleanForKey(java.lang.String, java.lang.Boolean, com.optimizely.Variable.LiveVariable.Callback<java.lang.Boolean>)">booleanForKey</a></span>(String variableKey, Boolean defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Boolean&gt; callback)
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#booleanForKey(java.lang.String, java.lang.Boolean)">booleanForKey</a></span>(String variableKey, Boolean defaultValue)
         
         <div class="jd-descrdiv">Method to create a OptimizelyVariable in client app with type boolean.</div>
   
@@ -567,7 +616,7 @@ Summary:
             <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Integer&gt;
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#colorForKey(java.lang.String, int, com.optimizely.Variable.LiveVariable.Callback<java.lang.Integer>)">colorForKey</a></span>(String variableKey, int defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Integer&gt; callback)
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#colorForKey(java.lang.String, int)">colorForKey</a></span>(String variableKey, int defaultValue)
         
         <div class="jd-descrdiv">Method to create a OptimizelyVariable in client app with type Color.</div>
   
@@ -585,7 +634,7 @@ Summary:
             <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Integer&gt;
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#colorForKey(java.lang.String, int)">colorForKey</a></span>(String variableKey, int defaultValue)
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#colorForKey(java.lang.String, int, com.optimizely.Variable.LiveVariable.Callback<java.lang.Integer>)">colorForKey</a></span>(String variableKey, int defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Integer&gt; callback)
         
         <div class="jd-descrdiv">Method to create a OptimizelyVariable in client app with type Color.</div>
   
@@ -603,12 +652,12 @@ Summary:
             <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Integer&gt;
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#colorVariable(java.lang.String, int)">colorVariable</a></span>(String variableKey, int defaultValue)
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#colorVariable(java.lang.String, int, com.optimizely.Variable.LiveVariable.Callback<java.lang.Integer>)">colorVariable</a></span>(String variableKey, int defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Integer&gt; callback)
         
         <div class="jd-descrdiv">
       <em>
   This method is deprecated.
-      Use <code><a href="../../com/optimizely/Optimizely.html#colorForKey(java.lang.String, int)">colorForKey(String, int)</a></code>
+      Use <code><a href="../../com/optimizely/Optimizely.html#colorForKey(java.lang.String, int, com.optimizely.Variable.LiveVariable.Callback<java.lang.Integer>)">colorForKey(String, int, LiveVariable.Callback)</a></code>
  Method to create a OptimizelyVariable in client app with type Color.
  This method also takes a callback to be executed when value changes.
 </em></div>
@@ -627,7 +676,7 @@ Summary:
             <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Integer&gt;
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#colorVariable(java.lang.String, int, com.optimizely.Variable.LiveVariable.Callback<java.lang.Integer>)">colorVariable</a></span>(String variableKey, int defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Integer&gt; callback)
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#colorVariable(java.lang.String, int)">colorVariable</a></span>(String variableKey, int defaultValue)
         
         <div class="jd-descrdiv">
       <em>
@@ -704,12 +753,12 @@ Summary:
             <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Float&gt;
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#floatVariable(java.lang.String, float)">floatVariable</a></span>(String variableKey, float defaultValue)
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#floatVariable(java.lang.String, float, com.optimizely.Variable.LiveVariable.Callback<java.lang.Float>)">floatVariable</a></span>(String variableKey, float defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Float&gt; callback)
         
         <div class="jd-descrdiv">
       <em>
   This method is deprecated.
-      Use <code><a href="../../com/optimizely/Optimizely.html#floatForKey(java.lang.String, float)">floatForKey(String, float)</a></code>
+      Use <code><a href="../../com/optimizely/Optimizely.html#floatForKey(java.lang.String, float, com.optimizely.Variable.LiveVariable.Callback<java.lang.Float>)">floatForKey(String, float, LiveVariable.Callback)</a></code>
  Method to create a OptimizelyVariable in client app with type as float precision.
  This method also takes a callback to be executed when value changes.
 </em></div>
@@ -728,7 +777,7 @@ Summary:
             <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Float&gt;
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#floatVariable(java.lang.String, float, com.optimizely.Variable.LiveVariable.Callback<java.lang.Float>)">floatVariable</a></span>(String variableKey, float defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Float&gt; callback)
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#floatVariable(java.lang.String, float)">floatVariable</a></span>(String variableKey, float defaultValue)
         
         <div class="jd-descrdiv">
       <em>
@@ -1216,12 +1265,12 @@ Summary:
             <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Rect&gt;
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#rectVariable(java.lang.String, android.graphics.Rect)">rectVariable</a></span>(String variableKey, Rect defaultValue)
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#rectVariable(java.lang.String, android.graphics.Rect, com.optimizely.Variable.LiveVariable.Callback<android.graphics.Rect>)">rectVariable</a></span>(String variableKey, Rect defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Rect&gt; callback)
         
         <div class="jd-descrdiv">
       <em>
   This method is deprecated.
-      Use <code><a href="../../com/optimizely/Optimizely.html#rectForKey(java.lang.String, android.graphics.Rect)">rectForKey(String, Rect)</a></code>
+      Use <code><a href="../../com/optimizely/Optimizely.html#rectForKey(java.lang.String, android.graphics.Rect, com.optimizely.Variable.LiveVariable.Callback<android.graphics.Rect>)">rectForKey(String, Rect, LiveVariable.Callback)</a></code>
  Method to create a OptimizelyVariable in client app with type Rectangle.
  This method also takes a callback to be executed when value changes.
 </em></div>
@@ -1240,12 +1289,12 @@ Summary:
             <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Rect&gt;
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#rectVariable(java.lang.String, android.graphics.Rect, com.optimizely.Variable.LiveVariable.Callback<android.graphics.Rect>)">rectVariable</a></span>(String variableKey, Rect defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Rect&gt; callback)
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#rectVariable(java.lang.String, android.graphics.Rect)">rectVariable</a></span>(String variableKey, Rect defaultValue)
         
         <div class="jd-descrdiv">
       <em>
   This method is deprecated.
-  Use <code><a href="../../com/optimizely/Optimizely.html#rectForKey(java.lang.String, android.graphics.Rect)">rectForKey(String, Rect)</a></code>
+      Use <code><a href="../../com/optimizely/Optimizely.html#rectForKey(java.lang.String, android.graphics.Rect)">rectForKey(String, Rect)</a></code>
  Method to create a OptimizelyVariable in client app with type Rectangle.
 </em></div>
   
@@ -2074,7 +2123,7 @@ From class
             void
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad">wait</span>()
+        <span class="sympad">wait</span>(long arg0, int arg1)
         
   </td></tr>
 
@@ -2090,7 +2139,7 @@ From class
             void
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad">wait</span>(long arg0, int arg1)
+        <span class="sympad">wait</span>(long arg0)
         
   </td></tr>
 
@@ -2106,7 +2155,7 @@ From class
             void
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad">wait</span>(long arg0)
+        <span class="sympad">wait</span>()
         
   </td></tr>
 
@@ -2313,55 +2362,6 @@ From class
 </div>
 
 
-<a id="booleanForKey(java.lang.String, java.lang.Boolean)"></a>
-
-<div class="jd-details api apilevel-"> 
-    <h4 class="jd-details-title">
-      <span class="normal">
-        public 
-        static 
-         
-         
-         
-        <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Boolean&gt;
-      </span>
-      <span class="sympad">booleanForKey</span>
-      <span class="normal">(String variableKey, Boolean defaultValue)</span>
-    </h4>
-      <div class="api-level">
-        <div>
-
-</div>
-        
-  
-
-      </div>
-    <div class="jd-details-descr">
-      
-  <div class="jd-tagdata jd-tagdescr"><p>Method to create a OptimizelyVariable in client app with type boolean.</p></div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Parameters</h5>
-      <table class="jd-tagtable">
-        <tr>
-          <th>variableKey</th>
-          <td>the name of the variable. Must be unique.</td>
-        </tr>
-        <tr>
-          <th>defaultValue</th>
-          <td>the value that will be returned if no value is specified in the experiment.</td>
-        </tr>
-      </table>
-  </div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Returns</h5>
-      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.
-</li></ul>
-  </div>
-
-    </div>
-</div>
-
-
 <a id="booleanForKey(java.lang.String, java.lang.Boolean, com.optimizely.Variable.LiveVariable.Callback<java.lang.Boolean>)"></a>
 
 <div class="jd-details api apilevel-"> 
@@ -2403,6 +2403,55 @@ From class
         <tr>
           <th>callback</th>
           <td>the callback to be executed when value changes in editor.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.
+</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
+<a id="booleanForKey(java.lang.String, java.lang.Boolean)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Boolean&gt;
+      </span>
+      <span class="sympad">booleanForKey</span>
+      <span class="normal">(String variableKey, Boolean defaultValue)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Method to create a OptimizelyVariable in client app with type boolean.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>variableKey</th>
+          <td>the name of the variable. Must be unique.</td>
+        </tr>
+        <tr>
+          <th>defaultValue</th>
+          <td>the value that will be returned if no value is specified in the experiment.</td>
         </tr>
       </table>
   </div>
@@ -2627,6 +2676,55 @@ From class
 </div>
 
 
+<a id="colorForKey(java.lang.String, int)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Integer&gt;
+      </span>
+      <span class="sympad">colorForKey</span>
+      <span class="normal">(String variableKey, int defaultValue)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Method to create a OptimizelyVariable in client app with type Color.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>variableKey</th>
+          <td>the name of the variable. Must be unique.</td>
+        </tr>
+        <tr>
+          <th>defaultValue</th>
+          <td>the value that will be returned if no value is specified in the experiment.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.
+</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
 <a id="colorForKey(java.lang.String, int, com.optimizely.Variable.LiveVariable.Callback<java.lang.Integer>)"></a>
 
 <div class="jd-details api apilevel-"> 
@@ -2681,110 +2779,6 @@ From class
 </div>
 
 
-<a id="colorForKey(java.lang.String, int)"></a>
-
-<div class="jd-details api apilevel-"> 
-    <h4 class="jd-details-title">
-      <span class="normal">
-        public 
-        static 
-         
-         
-         
-        <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Integer&gt;
-      </span>
-      <span class="sympad">colorForKey</span>
-      <span class="normal">(String variableKey, int defaultValue)</span>
-    </h4>
-      <div class="api-level">
-        <div>
-
-</div>
-        
-  
-
-      </div>
-    <div class="jd-details-descr">
-      
-  <div class="jd-tagdata jd-tagdescr"><p>Method to create a OptimizelyVariable in client app with type Color.</p></div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Parameters</h5>
-      <table class="jd-tagtable">
-        <tr>
-          <th>variableKey</th>
-          <td>the name of the variable. Must be unique.</td>
-        </tr>
-        <tr>
-          <th>defaultValue</th>
-          <td>the value that will be returned if no value is specified in the experiment.</td>
-        </tr>
-      </table>
-  </div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Returns</h5>
-      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.
-</li></ul>
-  </div>
-
-    </div>
-</div>
-
-
-<a id="colorVariable(java.lang.String, int)"></a>
-
-<div class="jd-details api apilevel-"> 
-    <h4 class="jd-details-title">
-      <span class="normal">
-        public 
-        static 
-         
-         
-         
-        <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Integer&gt;
-      </span>
-      <span class="sympad">colorVariable</span>
-      <span class="normal">(String variableKey, int defaultValue)</span>
-    </h4>
-      <div class="api-level">
-        <div>
-
-</div>
-        
-  
-
-      </div>
-    <div class="jd-details-descr">
-      <p>
-  <p class="caution">
-      <strong>
-  This method is deprecated.</strong><br/> Use <code><a href="../../com/optimizely/Optimizely.html#colorForKey(java.lang.String, int)">colorForKey(String, int)</a></code>
- Method to create a OptimizelyVariable in client app with type Color.
- This method also takes a callback to be executed when value changes.
-
-  </p>
-  <div class="jd-tagdata jd-tagdescr"><p></p></div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Parameters</h5>
-      <table class="jd-tagtable">
-        <tr>
-          <th>variableKey</th>
-          <td>the name of the variable. Must be unique.</td>
-        </tr>
-        <tr>
-          <th>defaultValue</th>
-          <td>the value that will be returned if no value is specified in the experiment.</td>
-        </tr>
-      </table>
-  </div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Returns</h5>
-      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.</li></ul>
-  </div>
-
-    </div>
-</div>
-
-
 <a id="colorVariable(java.lang.String, int, com.optimizely.Variable.LiveVariable.Callback<java.lang.Integer>)"></a>
 
 <div class="jd-details api apilevel-"> 
@@ -2832,6 +2826,60 @@ From class
         <tr>
           <th>callback</th>
           <td>the callback to be executed when value changes in editor.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
+<a id="colorVariable(java.lang.String, int)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Integer&gt;
+      </span>
+      <span class="sympad">colorVariable</span>
+      <span class="normal">(String variableKey, int defaultValue)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Use <code><a href="../../com/optimizely/Optimizely.html#colorForKey(java.lang.String, int)">colorForKey(String, int)</a></code>
+ Method to create a OptimizelyVariable in client app with type Color.
+
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>variableKey</th>
+          <td>the name of the variable. Must be unique.</td>
+        </tr>
+        <tr>
+          <th>defaultValue</th>
+          <td>the value that will be returned if no value is specified in the experiment.</td>
         </tr>
       </table>
   </div>
@@ -2985,61 +3033,6 @@ From class
 </div>
 
 
-<a id="floatVariable(java.lang.String, float)"></a>
-
-<div class="jd-details api apilevel-"> 
-    <h4 class="jd-details-title">
-      <span class="normal">
-        public 
-        static 
-         
-         
-         
-        <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Float&gt;
-      </span>
-      <span class="sympad">floatVariable</span>
-      <span class="normal">(String variableKey, float defaultValue)</span>
-    </h4>
-      <div class="api-level">
-        <div>
-
-</div>
-        
-  
-
-      </div>
-    <div class="jd-details-descr">
-      <p>
-  <p class="caution">
-      <strong>
-  This method is deprecated.</strong><br/> Use <code><a href="../../com/optimizely/Optimizely.html#floatForKey(java.lang.String, float)">floatForKey(String, float)</a></code>
- Method to create a OptimizelyVariable in client app with type as float precision.
- This method also takes a callback to be executed when value changes.
-
-  </p>
-  <div class="jd-tagdata jd-tagdescr"><p></p></div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Parameters</h5>
-      <table class="jd-tagtable">
-        <tr>
-          <th>variableKey</th>
-          <td>the name of the variable. Must be unique.</td>
-        </tr>
-        <tr>
-          <th>defaultValue</th>
-          <td>the value that will be returned if no value is specified in the experiment.</td>
-        </tr>
-      </table>
-  </div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Returns</h5>
-      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.</li></ul>
-  </div>
-
-    </div>
-</div>
-
-
 <a id="floatVariable(java.lang.String, float, com.optimizely.Variable.LiveVariable.Callback<java.lang.Float>)"></a>
 
 <div class="jd-details api apilevel-"> 
@@ -3087,6 +3080,60 @@ From class
         <tr>
           <th>callback</th>
           <td>the callback to be executed when value changes in editor.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
+<a id="floatVariable(java.lang.String, float)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Float&gt;
+      </span>
+      <span class="sympad">floatVariable</span>
+      <span class="normal">(String variableKey, float defaultValue)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Use <code><a href="../../com/optimizely/Optimizely.html#floatForKey(java.lang.String, float)">floatForKey(String, float)</a></code>
+ Method to create a OptimizelyVariable in client app with type as float precision.
+
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>variableKey</th>
+          <td>the name of the variable. Must be unique.</td>
+        </tr>
+        <tr>
+          <th>defaultValue</th>
+          <td>the value that will be returned if no value is specified in the experiment.</td>
         </tr>
       </table>
   </div>
@@ -4224,61 +4271,6 @@ From class
 </div>
 
 
-<a id="rectVariable(java.lang.String, android.graphics.Rect)"></a>
-
-<div class="jd-details api apilevel-"> 
-    <h4 class="jd-details-title">
-      <span class="normal">
-        public 
-        static 
-         
-         
-         
-        <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Rect&gt;
-      </span>
-      <span class="sympad">rectVariable</span>
-      <span class="normal">(String variableKey, Rect defaultValue)</span>
-    </h4>
-      <div class="api-level">
-        <div>
-
-</div>
-        
-  
-
-      </div>
-    <div class="jd-details-descr">
-      <p>
-  <p class="caution">
-      <strong>
-  This method is deprecated.</strong><br/> Use <code><a href="../../com/optimizely/Optimizely.html#rectForKey(java.lang.String, android.graphics.Rect)">rectForKey(String, Rect)</a></code>
- Method to create a OptimizelyVariable in client app with type Rectangle.
- This method also takes a callback to be executed when value changes.
-
-  </p>
-  <div class="jd-tagdata jd-tagdescr"><p></p></div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Parameters</h5>
-      <table class="jd-tagtable">
-        <tr>
-          <th>variableKey</th>
-          <td>the name of the variable. Must be unique.</td>
-        </tr>
-        <tr>
-          <th>defaultValue</th>
-          <td>the value that will be returned if no value is specified in the experiment.</td>
-        </tr>
-      </table>
-  </div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Returns</h5>
-      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.</li></ul>
-  </div>
-
-    </div>
-</div>
-
-
 <a id="rectVariable(java.lang.String, android.graphics.Rect, com.optimizely.Variable.LiveVariable.Callback<android.graphics.Rect>)"></a>
 
 <div class="jd-details api apilevel-"> 
@@ -4326,6 +4318,60 @@ From class
         <tr>
           <th>callback</th>
           <td>the callback to be executed when value changes in editor.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
+<a id="rectVariable(java.lang.String, android.graphics.Rect)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Rect&gt;
+      </span>
+      <span class="sympad">rectVariable</span>
+      <span class="normal">(String variableKey, Rect defaultValue)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Use <code><a href="../../com/optimizely/Optimizely.html#rectForKey(java.lang.String, android.graphics.Rect)">rectForKey(String, Rect)</a></code>
+ Method to create a OptimizelyVariable in client app with type Rectangle.
+
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>variableKey</th>
+          <td>the name of the variable. Must be unique.</td>
+        </tr>
+        <tr>
+          <th>defaultValue</th>
+          <td>the value that will be returned if no value is specified in the experiment.</td>
         </tr>
       </table>
   </div>
