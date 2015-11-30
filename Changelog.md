@@ -1,3 +1,8 @@
+# 1.3.3
+November 30, 2015
+## Bugfixes
+ * Fixes crash in preview edit mode when creating experiments on older Android devices (< API 17)
+
 # 1.3.2
 November 24, 2015
 *Tweaks:*
