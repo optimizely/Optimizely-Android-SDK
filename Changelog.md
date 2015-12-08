@@ -1,3 +1,10 @@
+# 1.3.4
+December 7, 2015
+## Bugfixes
+ * Fixes crash when enabling GSON.  SDK will catch exceptions and disable itself for that device if GSON initialization fails.
+## Upgrades
+ * Upgrades GSON and OkHTTP to the latest versions
+
 # 1.3.3
 November 30, 2015
 ## Bugfixes
