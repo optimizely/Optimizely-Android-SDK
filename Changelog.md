@@ -1,3 +1,8 @@
+# 1.3.5
+December 14, 2015
+## Bugfixes
+Fixes issue in 1.3.4 where SDK would crash attempting to disable itself due to a GSON failure on some devices.
+
 # 1.3.4
 December 7, 2015
 ## Bugfixes
