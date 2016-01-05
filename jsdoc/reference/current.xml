@@ -202,6 +202,17 @@
 <parameter name="callback" type="com.optimizely.Variable.LiveVariable.Callback&lt;java.lang.Integer&gt;">
 </parameter>
 </method>
+<method name="disableKillSwitch"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
 <method name="enableEditor"
  return="void"
  abstract="false"
