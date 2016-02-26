@@ -326,7 +326,9 @@ Summary:
 
 <h2>Class Overview</h2>
 <p>OptimizelyCodeBlocks is the singleton class which handles all the functionality required for implementing CodeBocks.
- In Editor mode, it interacts with socket server to communicate existing code blocks and update them for the
+ In Editor mode, it interacts with socket server to communicate existing code blocks and update them for the app. Optimizely
+ will *only* interact with the socket server if the editor module is included.  The module is included by default
+ with the Optimizely "bundle" which you are probably using.
 </p>
 
 
@@ -498,10 +500,44 @@ Summary:
             void
         </td>
         <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.html#resetCodeBlocks()">resetCodeBlocks</a></span>()
+        
+        <div class="jd-descrdiv">Resets all forced code blocks in EDIT mode.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
         <span class="sympad"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.html#sendCodeBlocks()">sendCodeBlocks</a></span>()
         
         <div class="jd-descrdiv">Sends all the registered code blocks to editor through socket server in a batches.</div>
   
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.html#setEditorModule(EditorModule)">setEditorModule</a></span>(EditorModule editor)
+        
   </td></tr>
 
 
@@ -951,6 +987,38 @@ From class
 </div>
 
 
+<a id="resetCodeBlocks()"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        void
+      </span>
+      <span class="sympad">resetCodeBlocks</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Resets all forced code blocks in EDIT mode.
+</p></div>
+
+    </div>
+</div>
+
+
 <a id="sendCodeBlocks()"></a>
 
 <div class="jd-details api apilevel-"> 
@@ -979,6 +1047,37 @@ From class
   <div class="jd-tagdata jd-tagdescr"><p>Sends all the registered code blocks to editor through socket server in a batches.
  Should be invoked just after Optimizely is initialized.
 </p></div>
+
+    </div>
+</div>
+
+
+<a id="setEditorModule(EditorModule)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        void
+      </span>
+      <span class="sympad">setEditorModule</span>
+      <span class="normal">(EditorModule editor)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
 
     </div>
 </div>

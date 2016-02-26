@@ -224,6 +224,41 @@
  visibility="public"
 >
 </method>
+<method name="fetchNewDataFile"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="fetchNewDataFile"
+ return="&lt;any&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="fetchAsync" type="boolean">
+</parameter>
+</method>
+<method name="fetchNewDataFileAsync"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
 <method name="floatForKey"
  return="com.optimizely.Variable.LiveVariable&lt;java.lang.Float&gt;"
  abstract="false"
@@ -369,6 +404,28 @@
  visibility="public"
 >
 </method>
+<method name="getDimensions"
+ return="java.util.ArrayList&lt;OptimizelyDimension&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getEditorModule"
+ return="EditorModule"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
 <method name="getExperimentDataById"
  return="com.optimizely.integration.OptimizelyExperimentData"
  abstract="false"
@@ -384,6 +441,41 @@
 </method>
 <method name="getIntegrationEventsDispatcher"
  return="IntegrationEventsDispatcher"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getOptimizelyDimensionsManager"
+ return="OptimizelyDimensionsManager"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getOptimizelyEndUserId"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="android.content.Context">
+</parameter>
+</method>
+<method name="getOptimizelySegmentsManager"
+ return="OptimizelySegmentsManager"
  abstract="false"
  native="false"
  synchronized="false"
@@ -426,7 +518,7 @@
  visibility="public"
 >
 </method>
-<method name="getUserId"
+<method name="getUniversalUserId"
  return="java.lang.String"
  abstract="false"
  native="false"
@@ -438,6 +530,30 @@
 >
 <parameter name="context" type="android.content.Context">
 </parameter>
+</method>
+<method name="getUserId"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<parameter name="context" type="android.content.Context">
+</parameter>
+</method>
+<method name="getViewModule"
+ return="ViewModule"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
 </method>
 <method name="getVisitedExperiments"
  return="java.util.Map&lt;java.lang.String, com.optimizely.integration.OptimizelyExperimentData&gt;"
@@ -818,6 +934,32 @@
 <parameter name="editGestureEnabled" type="boolean">
 </parameter>
 </method>
+<method name="setEditorModule"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="editorModule" type="EditorModule">
+</parameter>
+</method>
+<method name="setEnableUncaughtExceptionHandler"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="enableUncaughtExceptionHandler" type="boolean">
+</parameter>
+</method>
 <method name="setEventRecordingEnabled"
  return="void"
  abstract="false"
@@ -872,7 +1014,7 @@
 <parameter name="view" type="android.view.View">
 </parameter>
 </method>
-<method name="setUserId"
+<method name="setUniversalUserId"
  return="void"
  abstract="false"
  native="false"
@@ -880,6 +1022,21 @@
  static="true"
  final="false"
  deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="context" type="android.content.Context">
+</parameter>
+<parameter name="universalUserId" type="java.lang.String">
+</parameter>
+</method>
+<method name="setUserId"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="deprecated"
  visibility="public"
 >
 <parameter name="context" type="android.content.Context">
@@ -898,6 +1055,19 @@
  visibility="public"
 >
 <parameter name="enableLogging" type="boolean">
+</parameter>
+</method>
+<method name="setViewModule"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="viewModule" type="ViewModule">
 </parameter>
 </method>
 <method name="setVisualExperimentsEnabled"
@@ -1104,19 +1274,6 @@
 <parameter name="revenueAmount" type="int">
 </parameter>
 <parameter name="revenueDescription" type="java.lang.String">
-</parameter>
-</method>
-<method name="trackViewGoal"
- return="void"
- abstract="false"
- native="false"
- synchronized="false"
- static="true"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-<parameter name="id" type="java.lang.String">
 </parameter>
 </method>
 <field name="application"
@@ -1381,6 +1538,17 @@
 <parameter name="branchNames" type="java.lang.String...">
 </parameter>
 </method>
+<method name="resetCodeBlocks"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
 <method name="sendCodeBlocks"
  return="void"
  abstract="false"
@@ -1391,6 +1559,19 @@
  deprecated="not deprecated"
  visibility="public"
 >
+</method>
+<method name="setEditorModule"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="editor" type="EditorModule">
+</parameter>
 </method>
 </class>
 <class name="OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder"
@@ -1461,6 +1642,8 @@
 <parameter name="defaultValue" type="T">
 </parameter>
 <parameter name="optimizelyVariables" type="OptimizelyVariables">
+</parameter>
+<parameter name="clazz" type="java.lang.Class&lt;T&gt;">
 </parameter>
 </constructor>
 <method name="get"
@@ -2049,6 +2232,51 @@
  visibility="public"
 >
 </constructor>
+<method name="evaluateCodeBlock"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="blockKey" type="java.lang.String">
+</parameter>
+</method>
+<method name="evaluateDimensions"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="dimensionName" type="java.lang.String">
+</parameter>
+<parameter name="condition" type="org.json.JSONObject">
+</parameter>
+</method>
+<method name="evaluateLiveVariable"
+ return="java.lang.Object"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="type" type="java.lang.Class&lt;T&gt;">
+</parameter>
+<parameter name="key" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="T">
+</parameter>
+</method>
 <method name="getActivityLifecycleCallbacks"
  return="android.app.Application.ActivityLifecycleCallbacks"
  abstract="false"
@@ -2060,7 +2288,40 @@
  visibility="public"
 >
 </method>
+<method name="getCodeBlocks"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
 <method name="getDependencies"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDimensionNames"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getLiveVariables"
  return="java.util.List&lt;java.lang.String&gt;"
  abstract="false"
  native="false"
@@ -2115,6 +2376,21 @@
  visibility="public"
 >
 <parameter name="context" type="android.content.Context">
+</parameter>
+</method>
+<method name="getVisualChangesForActivity"
+ return="java.util.List&lt;OptimizelyView&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="activity" type="android.app.Activity">
+</parameter>
+<parameter name="name" type="java.lang.String">
 </parameter>
 </method>
 <method name="start"
@@ -2163,6 +2439,51 @@
  visibility="public"
 >
 </constructor>
+<method name="evaluateCodeBlock"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="blockKey" type="java.lang.String">
+</parameter>
+</method>
+<method name="evaluateDimensions"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="dimensionName" type="java.lang.String">
+</parameter>
+<parameter name="condition" type="org.json.JSONObject">
+</parameter>
+</method>
+<method name="evaluateLiveVariable"
+ return="java.lang.Object"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="type" type="java.lang.Class&lt;T&gt;">
+</parameter>
+<parameter name="key" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="T">
+</parameter>
+</method>
 <method name="getActivityLifecycleCallbacks"
  return="android.app.Application.ActivityLifecycleCallbacks"
  abstract="false"
@@ -2174,7 +2495,40 @@
  visibility="public"
 >
 </method>
+<method name="getCodeBlocks"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
 <method name="getDependencies"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDimensionNames"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getLiveVariables"
  return="java.util.List&lt;java.lang.String&gt;"
  abstract="false"
  native="false"
@@ -2229,6 +2583,21 @@
  visibility="public"
 >
 <parameter name="context" type="android.content.Context">
+</parameter>
+</method>
+<method name="getVisualChangesForActivity"
+ return="java.util.List&lt;OptimizelyView&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="activity" type="android.app.Activity">
+</parameter>
+<parameter name="name" type="java.lang.String">
 </parameter>
 </method>
 <method name="start"
@@ -2354,6 +2723,51 @@
  visibility="public"
 >
 </constructor>
+<method name="evaluateCodeBlock"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="blockKey" type="java.lang.String">
+</parameter>
+</method>
+<method name="evaluateDimensions"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="dimensionName" type="java.lang.String">
+</parameter>
+<parameter name="condition" type="org.json.JSONObject">
+</parameter>
+</method>
+<method name="evaluateLiveVariable"
+ return="java.lang.Object"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="type" type="java.lang.Class&lt;T&gt;">
+</parameter>
+<parameter name="key" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="T">
+</parameter>
+</method>
 <method name="getActivityLifecycleCallbacks"
  return="android.app.Application.ActivityLifecycleCallbacks"
  abstract="false"
@@ -2365,7 +2779,40 @@
  visibility="public"
 >
 </method>
+<method name="getCodeBlocks"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
 <method name="getDependencies"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDimensionNames"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getLiveVariables"
  return="java.util.List&lt;java.lang.String&gt;"
  abstract="false"
  native="false"
@@ -2420,6 +2867,21 @@
  visibility="public"
 >
 <parameter name="context" type="android.content.Context">
+</parameter>
+</method>
+<method name="getVisualChangesForActivity"
+ return="java.util.List&lt;OptimizelyView&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="activity" type="android.app.Activity">
+</parameter>
+<parameter name="name" type="java.lang.String">
 </parameter>
 </method>
 <method name="reportTrack"
@@ -2481,6 +2943,51 @@
  visibility="public"
 >
 </constructor>
+<method name="evaluateCodeBlock"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="blockKey" type="java.lang.String">
+</parameter>
+</method>
+<method name="evaluateDimensions"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="dimensionName" type="java.lang.String">
+</parameter>
+<parameter name="condition" type="org.json.JSONObject">
+</parameter>
+</method>
+<method name="evaluateLiveVariable"
+ return="java.lang.Object"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="type" type="java.lang.Class&lt;T&gt;">
+</parameter>
+<parameter name="key" type="java.lang.String">
+</parameter>
+<parameter name="defaultValue" type="T">
+</parameter>
+</method>
 <method name="getActivityLifecycleCallbacks"
  return="android.app.Application.ActivityLifecycleCallbacks"
  abstract="false"
@@ -2492,7 +2999,40 @@
  visibility="public"
 >
 </method>
+<method name="getCodeBlocks"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
 <method name="getDependencies"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDimensionNames"
+ return="java.util.List&lt;java.lang.String&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getLiveVariables"
  return="java.util.List&lt;java.lang.String&gt;"
  abstract="false"
  native="false"
@@ -2547,6 +3087,21 @@
  visibility="public"
 >
 <parameter name="context" type="android.content.Context">
+</parameter>
+</method>
+<method name="getVisualChangesForActivity"
+ return="java.util.List&lt;OptimizelyView&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="activity" type="android.app.Activity">
+</parameter>
+<parameter name="name" type="java.lang.String">
 </parameter>
 </method>
 <method name="setTracker"
