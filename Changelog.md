@@ -1,3 +1,14 @@
+# 1.4.2
+March 8, 2016
+* Fixes issue with thread pool becoming starved
+* Constrains bundled Proguard rules to the bare minimum required for SDK to run
+# 1.4.1
+* Updates Proguard rules for new modules
+# 1.4.0
+* Breaks core sdk up into modules that can be selectively compiled: core, editor, view, and shared
+* Faster cold start time
+* Allows for 3rd party audience integrations
+
 # 1.3.5
 December 14, 2015
 ## Bugfixes
