@@ -57,7 +57,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="../../../favicon.ico" />
 <title>
 
-  OptimizelyCodeBlocks
+  OptimizelyDimension
 
 
 </title>
@@ -142,9 +142,9 @@
                 
     <li class="api apilevel-">
   <a href="../../../com/optimizely/package-summary.html">com.optimizely</a></li>
-    <li class="api apilevel-">
-  <a href="../../../com/optimizely/Audiences/package-summary.html">com.optimizely.Audiences</a></li>
     <li class="selected api apilevel-">
+  <a href="../../../com/optimizely/Audiences/package-summary.html">com.optimizely.Audiences</a></li>
+    <li class="api apilevel-">
   <a href="../../../com/optimizely/CodeBlocks/package-summary.html">com.optimizely.CodeBlocks</a></li>
     <li class="api apilevel-">
   <a href="../../../com/optimizely/Variable/package-summary.html">com.optimizely.Variable</a></li>
@@ -164,19 +164,11 @@
           <div id="classes-nav">
             <ul>
               
-    <li><h2>Interfaces</h2>
-      <ul>
-          <li class="api apilevel-"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.Callback.html">OptimizelyCodeBlock.Callback</a></li>
-      </ul>
-    </li>
               
     <li><h2>Classes</h2>
       <ul>
-          <li class="api apilevel-"><a href="../../../com/optimizely/CodeBlocks/CodeBranch.html">CodeBranch</a></li>
-          <li class="api apilevel-"><a href="../../../com/optimizely/CodeBlocks/DefaultCodeBranch.html">DefaultCodeBranch</a></li>
-          <li class="api apilevel-"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.html">OptimizelyCodeBlock</a></li>
-          <li class="selected api apilevel-"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.html">OptimizelyCodeBlocks</a></li>
-          <li class="api apilevel-"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder.html">OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder</a></li>
+          <li class="api apilevel-"><a href="../../../com/optimizely/Audiences/OptimizelyAttribute.html">OptimizelyAttribute</a></li>
+          <li class="selected api apilevel-"><a href="../../../com/optimizely/Audiences/OptimizelyDimension.html">OptimizelyDimension</a></li>
       </ul>
     </li>
               
@@ -233,8 +225,6 @@
 
 Summary:
 
-  <a href="#nestedclasses">Nested Classes</a>
-  
 
 
 
@@ -244,12 +234,8 @@ Summary:
 
 
 
-  &#124; <a href="#pubctors">Ctors</a>
-  
 
-
-
-  &#124; <a href="#pubmethods">Methods</a>
+  <a href="#pubmethods">Methods</a>
   
 
 
@@ -278,7 +264,7 @@ Summary:
      
     
     class
-<h1>OptimizelyCodeBlocks</h1>
+<h1>OptimizelyDimension</h1>
 
 
 
@@ -311,7 +297,7 @@ Summary:
         
             <td class="jd-inheritance-space">&nbsp;&nbsp;&nbsp;&#x21b3;</td>
          	
-        <td colspan="1" class="jd-inheritance-class-cell">com.optimizely.CodeBlocks.OptimizelyCodeBlocks</td>
+        <td colspan="1" class="jd-inheritance-class-cell">com.optimizely.Audiences.OptimizelyDimension</td>
     </tr>
     
 
@@ -320,6 +306,37 @@ Summary:
 
 
 
+<table class="jd-sumtable jd-sumtable-subclasses"><tr><td colspan="12" style="border:none;margin:0;padding:0;">
+
+  <a href="#" onclick="return toggleInherited(this, null)" id="subclasses-direct" class="jd-expando-trigger closed"
+          ><img id="subclasses-direct-trigger"
+          src="../../../../assets/images/triangle-closed.png"
+          class="jd-expando-trigger-img" /></a>Known Direct Subclasses
+
+  <div id="subclasses-direct">
+      <div id="subclasses-direct-list"
+              class="jd-inheritedlinks"
+              
+              >
+          
+            
+              <a href="../../../com/optimizely/Audiences/OptimizelyAttribute.html">OptimizelyAttribute</a>
+            
+          
+      </div>
+      <div id="subclasses-direct-summary"
+              style="display: none;"
+              >
+  <table class="jd-sumtable-expando">
+        <tr class="alt-color api apilevel-" >
+              <td class="jd-linkcol"><a href="../../../com/optimizely/Audiences/OptimizelyAttribute.html">OptimizelyAttribute</a></td>
+              <td class="jd-descrcol" width="100%">A java representation of the properties of an Optimizely dimension.&nbsp;</td>
+          </tr>
+  </table>
+      </div>
+  </div>
+</td></tr></table>
+
 
 
 
@@ -327,14 +344,15 @@ Summary:
 
 
 <h2>Class Overview</h2>
-<p>OptimizelyCodeBlocks is the singleton class which handles all the functionality required for implementing CodeBocks.
- In Editor mode, it interacts with socket server to communicate existing code blocks and update them for the app. Optimizely
- will *only* interact with the socket server if the editor module is included.  The module is included by default
- with the Optimizely "bundle" which you are probably using.
-</p>
+<p>A java representation of the properties of an Optimizely dimension.@deprecated</p>
 
 
 
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">See Also</h5>
+      <ul class="nolist"><li><code><a href="../../../com/optimizely/Audiences/OptimizelyAttribute.html">OptimizelyAttribute</a></code></li>
+      </ul>
+  </div>
 
 
 </div><!-- jd-descr -->
@@ -361,25 +379,6 @@ Summary:
 
 
 
-<!-- ======== NESTED CLASS SUMMARY ======== -->
-<table id="nestedclasses" class="jd-sumtable"><tr><th colspan="12">Nested Classes</th></tr>
-
-
-  
-    <tr class="alt-color api apilevel-" >
-      <td class="jd-typecol">
-        
-         
-         
-        
-        class</td>
-      <td class="jd-linkcol"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder.html">OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder</a></td>
-      <td class="jd-descrcol" width="100%">&nbsp;</td>
-    </tr>
-    
-    
-
-</table>
 
 
 
@@ -398,33 +397,6 @@ Summary:
 
 
 
-
-
-
-
-<!-- ======== CONSTRUCTOR SUMMARY ======== -->
-<table id="pubctors" class="jd-sumtable"><tr><th colspan="12">Public Constructors</th></tr>
-
-
-
-	 
-    <tr class="alt-color api apilevel-" >
-        <td class="jd-typecol">
-            
-            
-            
-            
-            
-            
-        </td>
-        <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.html#OptimizelyCodeBlocks(com.optimizely.Optimizely)">OptimizelyCodeBlocks</a></span>(<a href="../../../com/optimizely/Optimizely.html">Optimizely</a> optimizely)
-        
-  </td></tr>
-
-
-
-</table>
 
 
 
@@ -444,14 +416,11 @@ Summary:
             
             
             
-            <a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder.html">OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder</a>
+            String
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.html#blockBuilder(java.lang.String)">blockBuilder</a></span>(String codeBlockKey)
+        <span class="sympad"><a href="../../../com/optimizely/Audiences/OptimizelyDimension.html#getDimensionAPIName()">getDimensionAPIName</a></span>()
         
-        <div class="jd-descrdiv">Method to create a OptimizelyCodeBlockBuilder in client app with name which can
- be used to create a code block</div>
-  
   </td></tr>
 
 
@@ -463,13 +432,11 @@ Summary:
             
             
             
-            <a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.html">OptimizelyCodeBlock</a>
+            String
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.html#makeCodeBlock(java.lang.String, com.optimizely.CodeBlocks.OptimizelyCodeBlock.Callback, java.lang.String...)">makeCodeBlock</a></span>(String codeBlockKey, <a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.Callback.html">OptimizelyCodeBlock.Callback</a> callback, String... branchNames)
+        <span class="sympad"><a href="../../../com/optimizely/Audiences/OptimizelyDimension.html#getDimensionDescription()">getDimensionDescription</a></span>()
         
-        <div class="jd-descrdiv">Method to create a OptimizelyCodeBlock in client app with name and default code block.</div>
-  
   </td></tr>
 
 
@@ -481,13 +448,11 @@ Summary:
             
             
             
-            <a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.html">OptimizelyCodeBlock</a>
+            String
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.html#makeCodeBlock(java.lang.String, java.lang.String...)">makeCodeBlock</a></span>(String codeBlockKey, String... branchNames)
+        <span class="sympad"><a href="../../../com/optimizely/Audiences/OptimizelyDimension.html#getDimensionId()">getDimensionId</a></span>()
         
-        <div class="jd-descrdiv">Method to create a OptimizelyCodeBlock in client app with name and default code block.</div>
-  
   </td></tr>
 
 
@@ -499,13 +464,11 @@ Summary:
             
             
             
-            void
+            String
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.html#resetCodeBlocks()">resetCodeBlocks</a></span>()
+        <span class="sympad"><a href="../../../com/optimizely/Audiences/OptimizelyDimension.html#getDimensionName()">getDimensionName</a></span>()
         
-        <div class="jd-descrdiv">Resets all forced code blocks in EDIT mode.</div>
-  
   </td></tr>
 
 
@@ -517,13 +480,11 @@ Summary:
             
             
             
-            void
+            String
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.html#sendCodeBlocks()">sendCodeBlocks</a></span>()
+        <span class="sympad"><a href="../../../com/optimizely/Audiences/OptimizelyDimension.html#getDimensionValue()">getDimensionValue</a></span>()
         
-        <div class="jd-descrdiv">Sends all the registered code blocks to editor through socket server in a batches.</div>
-  
   </td></tr>
 
 
@@ -535,10 +496,26 @@ Summary:
             
             
             
-            void
+            String
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.html#setEditorModule(EditorModule)">setEditorModule</a></span>(EditorModule editor)
+        <span class="sympad"><a href="../../../com/optimizely/Audiences/OptimizelyDimension.html#getSegmentId()">getSegmentId</a></span>()
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            String
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../../com/optimizely/Audiences/OptimizelyDimension.html#toString()">toString</a></span>()
         
   </td></tr>
 
@@ -788,12 +765,20 @@ From class
 <!-- Public ctors -->
 
 
+
 <!-- ========= CONSTRUCTOR DETAIL ======== -->
-<h2>Public Constructors</h2>
+<!-- Protected ctors -->
 
 
 
-<a id="OptimizelyCodeBlocks(com.optimizely.Optimizely)"></a>
+<!-- ========= METHOD DETAIL ======== -->
+<!-- Public methdos -->
+
+<h2>Public Methods</h2>
+
+
+
+<a id="getDimensionAPIName()"></a>
 
 <div class="jd-details api apilevel-"> 
     <h4 class="jd-details-title">
@@ -803,10 +788,10 @@ From class
          
          
          
-        
+        String
       </span>
-      <span class="sympad">OptimizelyCodeBlocks</span>
-      <span class="normal">(<a href="../../../com/optimizely/Optimizely.html">Optimizely</a> optimizely)</span>
+      <span class="sympad">getDimensionAPIName</span>
+      <span class="normal">()</span>
     </h4>
       <div class="api-level">
         <div>
@@ -824,22 +809,7 @@ From class
 </div>
 
 
-
-
-
-<!-- ========= CONSTRUCTOR DETAIL ======== -->
-<!-- Protected ctors -->
-
-
-
-<!-- ========= METHOD DETAIL ======== -->
-<!-- Public methdos -->
-
-<h2>Public Methods</h2>
-
-
-
-<a id="blockBuilder(java.lang.String)"></a>
+<a id="getDimensionDescription()"></a>
 
 <div class="jd-details api apilevel-"> 
     <h4 class="jd-details-title">
@@ -849,159 +819,9 @@ From class
          
          
          
-        <a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder.html">OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder</a>
+        String
       </span>
-      <span class="sympad">blockBuilder</span>
-      <span class="normal">(String codeBlockKey)</span>
-    </h4>
-      <div class="api-level">
-        <div>
-
-</div>
-        
-  
-
-      </div>
-    <div class="jd-details-descr">
-      
-  <div class="jd-tagdata jd-tagdescr"><p>Method to create a OptimizelyCodeBlockBuilder in client app with name which can
- be used to create a code block</p></div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Parameters</h5>
-      <table class="jd-tagtable">
-        <tr>
-          <th>codeBlockKey</th>
-          <td>name of the code block.</td>
-        </tr>
-      </table>
-  </div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Returns</h5>
-      <ul class="nolist"><li>new code block builder
-</li></ul>
-  </div>
-
-    </div>
-</div>
-
-
-<a id="makeCodeBlock(java.lang.String, com.optimizely.CodeBlocks.OptimizelyCodeBlock.Callback, java.lang.String...)"></a>
-
-<div class="jd-details api apilevel-"> 
-    <h4 class="jd-details-title">
-      <span class="normal">
-        public 
-         
-         
-         
-         
-        <a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.html">OptimizelyCodeBlock</a>
-      </span>
-      <span class="sympad">makeCodeBlock</span>
-      <span class="normal">(String codeBlockKey, <a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.Callback.html">OptimizelyCodeBlock.Callback</a> callback, String... branchNames)</span>
-    </h4>
-      <div class="api-level">
-        <div>
-
-</div>
-        
-  
-
-      </div>
-    <div class="jd-details-descr">
-      
-  <div class="jd-tagdata jd-tagdescr"><p>Method to create a OptimizelyCodeBlock in client app with name and default code block.
-
- If a callback is provided it will be called when the active branch is changed in EDIT mode.</p></div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Parameters</h5>
-      <table class="jd-tagtable">
-        <tr>
-          <th>codeBlockKey</th>
-          <td>name of the code block.</td>
-        </tr>
-        <tr>
-          <th>callback</th>
-          <td>an instance <code><a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.Callback.html">OptimizelyCodeBlock.Callback</a></code></td>
-        </tr>
-        <tr>
-          <th>branchNames</th>
-          <td>the names of the branches</td>
-        </tr>
-      </table>
-  </div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Returns</h5>
-      <ul class="nolist"><li>new code block
-</li></ul>
-  </div>
-
-    </div>
-</div>
-
-
-<a id="makeCodeBlock(java.lang.String, java.lang.String...)"></a>
-
-<div class="jd-details api apilevel-"> 
-    <h4 class="jd-details-title">
-      <span class="normal">
-        public 
-         
-         
-         
-         
-        <a href="../../../com/optimizely/CodeBlocks/OptimizelyCodeBlock.html">OptimizelyCodeBlock</a>
-      </span>
-      <span class="sympad">makeCodeBlock</span>
-      <span class="normal">(String codeBlockKey, String... branchNames)</span>
-    </h4>
-      <div class="api-level">
-        <div>
-
-</div>
-        
-  
-
-      </div>
-    <div class="jd-details-descr">
-      
-  <div class="jd-tagdata jd-tagdescr"><p>Method to create a OptimizelyCodeBlock in client app with name and default code block.</p></div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Parameters</h5>
-      <table class="jd-tagtable">
-        <tr>
-          <th>codeBlockKey</th>
-          <td>name of the code block.</td>
-        </tr>
-        <tr>
-          <th>branchNames</th>
-          <td>the names of the branches</td>
-        </tr>
-      </table>
-  </div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Returns</h5>
-      <ul class="nolist"><li>new code block
-</li></ul>
-  </div>
-
-    </div>
-</div>
-
-
-<a id="resetCodeBlocks()"></a>
-
-<div class="jd-details api apilevel-"> 
-    <h4 class="jd-details-title">
-      <span class="normal">
-        public 
-         
-         
-         
-         
-        void
-      </span>
-      <span class="sympad">resetCodeBlocks</span>
+      <span class="sympad">getDimensionDescription</span>
       <span class="normal">()</span>
     </h4>
       <div class="api-level">
@@ -1014,14 +834,13 @@ From class
       </div>
     <div class="jd-details-descr">
       
-  <div class="jd-tagdata jd-tagdescr"><p>Resets all forced code blocks in EDIT mode.
-</p></div>
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
 
     </div>
 </div>
 
 
-<a id="sendCodeBlocks()"></a>
+<a id="getDimensionId()"></a>
 
 <div class="jd-details api apilevel-"> 
     <h4 class="jd-details-title">
@@ -1031,9 +850,9 @@ From class
          
          
          
-        void
+        String
       </span>
-      <span class="sympad">sendCodeBlocks</span>
+      <span class="sympad">getDimensionId</span>
       <span class="normal">()</span>
     </h4>
       <div class="api-level">
@@ -1046,15 +865,13 @@ From class
       </div>
     <div class="jd-details-descr">
       
-  <div class="jd-tagdata jd-tagdescr"><p>Sends all the registered code blocks to editor through socket server in a batches.
- Should be invoked just after Optimizely is initialized.
-</p></div>
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
 
     </div>
 </div>
 
 
-<a id="setEditorModule(EditorModule)"></a>
+<a id="getDimensionName()"></a>
 
 <div class="jd-details api apilevel-"> 
     <h4 class="jd-details-title">
@@ -1064,10 +881,103 @@ From class
          
          
          
-        void
+        String
       </span>
-      <span class="sympad">setEditorModule</span>
-      <span class="normal">(EditorModule editor)</span>
+      <span class="sympad">getDimensionName</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+
+    </div>
+</div>
+
+
+<a id="getDimensionValue()"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        String
+      </span>
+      <span class="sympad">getDimensionValue</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+
+    </div>
+</div>
+
+
+<a id="getSegmentId()"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        String
+      </span>
+      <span class="sympad">getSegmentId</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+
+    </div>
+</div>
+
+
+<a id="toString()"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        String
+      </span>
+      <span class="sympad">toString</span>
+      <span class="normal">()</span>
     </h4>
       <div class="api-level">
         <div>

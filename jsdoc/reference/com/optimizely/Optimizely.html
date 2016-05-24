@@ -143,6 +143,8 @@
     <li class="selected api apilevel-">
   <a href="../../com/optimizely/package-summary.html">com.optimizely</a></li>
     <li class="api apilevel-">
+  <a href="../../com/optimizely/Audiences/package-summary.html">com.optimizely.Audiences</a></li>
+    <li class="api apilevel-">
   <a href="../../com/optimizely/CodeBlocks/package-summary.html">com.optimizely.CodeBlocks</a></li>
     <li class="api apilevel-">
   <a href="../../com/optimizely/Variable/package-summary.html">com.optimizely.Variable</a></li>
@@ -737,6 +739,24 @@ Summary:
             void
         </td>
         <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#enablePreview()">enablePreview</a></span>()
+        
+        <div class="jd-descrdiv">Makes Optimizely launch in preview mode.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            static
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
         <span class="sympad"><a href="../../com/optimizely/Optimizely.html#fetchNewDataFile()">fetchNewDataFile</a></span>()
         
         <div class="jd-descrdiv">Forces Optimizely to download and cache the most recent version of the data file from the CDN.</div>
@@ -745,7 +765,7 @@ Summary:
 
 
 	 
-    <tr class="alt-color api apilevel-" >
+    <tr class=" api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -761,7 +781,7 @@ Summary:
 
 
 	 
-    <tr class=" api apilevel-" >
+    <tr class="alt-color api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -774,6 +794,24 @@ Summary:
         <span class="sympad"><a href="../../com/optimizely/Optimizely.html#fetchNewDataFileAsync()">fetchNewDataFileAsync</a></span>()
         
         <div class="jd-descrdiv">Forces Optimizely to download and cache the most recent version of the data file from the CDN.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            static
+            
+            <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Float&gt;
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#floatForKey(java.lang.String, float, com.optimizely.Variable.LiveVariable.Callback<java.lang.Float>)">floatForKey</a></span>(String variableKey, float defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Float&gt; callback)
+        
+        <div class="jd-descrdiv">Method to create a OptimizelyVariable in client app with type as float precision.</div>
   
   </td></tr>
 
@@ -807,9 +845,14 @@ Summary:
             <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Float&gt;
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#floatForKey(java.lang.String, float, com.optimizely.Variable.LiveVariable.Callback<java.lang.Float>)">floatForKey</a></span>(String variableKey, float defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Float&gt; callback)
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#floatVariable(java.lang.String, float)">floatVariable</a></span>(String variableKey, float defaultValue)
         
-        <div class="jd-descrdiv">Method to create a OptimizelyVariable in client app with type as float precision.</div>
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Use <code><a href="../../com/optimizely/Optimizely.html#floatForKey(java.lang.String, float)">floatForKey(String, float)</a></code>
+ Method to create a OptimizelyVariable in client app with type as float precision.
+</em></div>
   
   </td></tr>
 
@@ -846,29 +889,6 @@ Summary:
             
             static
             
-            <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Float&gt;
-        </td>
-        <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#floatVariable(java.lang.String, float)">floatVariable</a></span>(String variableKey, float defaultValue)
-        
-        <div class="jd-descrdiv">
-      <em>
-  This method is deprecated.
-      Use <code><a href="../../com/optimizely/Optimizely.html#floatForKey(java.lang.String, float)">floatForKey(String, float)</a></code>
- Method to create a OptimizelyVariable in client app with type as float precision.
-</em></div>
-  
-  </td></tr>
-
-
-	 
-    <tr class="alt-color api apilevel-" >
-        <td class="jd-typecol">
-            
-            
-            
-            static
-            
             void
         </td>
         <td class="jd-linkcol" width="100%">
@@ -880,7 +900,7 @@ Summary:
 
 
 	 
-    <tr class=" api apilevel-" >
+    <tr class="alt-color api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -902,7 +922,7 @@ Summary:
 
 
 	 
-    <tr class="alt-color api apilevel-" >
+    <tr class=" api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -920,7 +940,7 @@ Summary:
 
 
 	 
-    <tr class=" api apilevel-" >
+    <tr class="alt-color api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -936,7 +956,7 @@ Summary:
 
 
 	 
-    <tr class="alt-color api apilevel-" >
+    <tr class=" api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -948,6 +968,24 @@ Summary:
         <td class="jd-linkcol" width="100%">
         <span class="sympad"><a href="../../com/optimizely/Optimizely.html#getApplication()">getApplication</a></span>()
         
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            static
+            
+            ArrayList&lt;<a href="../../com/optimizely/Audiences/OptimizelyAttribute.html">OptimizelyAttribute</a>&gt;
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#getAttributes()">getAttributes</a></span>()
+        
+        <div class="jd-descrdiv">This method returns a copy of all attributes that are defined in the data file.</div>
+  
   </td></tr>
 
 
@@ -991,20 +1029,36 @@ Summary:
             
             
             
-            static
             
-            ArrayList&lt;OptimizelyDimension&gt;
+            
+            OptimizelyDataStore
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#getDimensions()">getDimensions</a></span>()
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#getDataStore()">getDataStore</a></span>()
         
-        <div class="jd-descrdiv">This method returns a copy of all dimensions that are defined in the data file.</div>
-  
   </td></tr>
 
 
 	 
     <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            static
+            
+            ArrayList&lt;<a href="../../com/optimizely/Audiences/OptimizelyDimension.html">OptimizelyDimension</a>&gt;
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#getDimensions()">getDimensions</a></span>()
+        
+        <div class="jd-descrdiv">This method returns a copy of all dimensions that are defined in the data file.@deprecated</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -1020,7 +1074,7 @@ Summary:
 
 
 	 
-    <tr class=" api apilevel-" >
+    <tr class="alt-color api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -1039,7 +1093,7 @@ Summary:
 
 
 	 
-    <tr class="alt-color api apilevel-" >
+    <tr class=" api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -1055,17 +1109,17 @@ Summary:
 
 
 	 
-    <tr class=" api apilevel-" >
+    <tr class="alt-color api apilevel-" >
         <td class="jd-typecol">
             
             
             
             
             
-            OptimizelyDimensionsManager
+            OptimizelyAttributesManager
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#getOptimizelyDimensionsManager()">getOptimizelyDimensionsManager</a></span>()
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#getOptimizelyAttributesManager(android.content.Context)">getOptimizelyAttributesManager</a></span>(Context context)
         
         <div class="jd-descrdiv">Get Optimizely's Dimensions Manager</div>
   
@@ -1073,7 +1127,7 @@ Summary:
 
 
 	 
-    <tr class="alt-color api apilevel-" >
+    <tr class=" api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -1089,7 +1143,7 @@ Summary:
 
 
 	 
-    <tr class=" api apilevel-" >
+    <tr class="alt-color api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -1103,22 +1157,6 @@ Summary:
         
         <div class="jd-descrdiv">Get Optimizely's Segments Manager</div>
   
-  </td></tr>
-
-
-	 
-    <tr class="alt-color api apilevel-" >
-        <td class="jd-typecol">
-            
-            
-            
-            
-            
-            OptimizelyDataStore
-        </td>
-        <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#getSharedDataStore()">getSharedDataStore</a></span>()
-        
   </td></tr>
 
 
@@ -1191,6 +1229,78 @@ Summary:
       <em>
   This method is deprecated.
       Please use `getUniversalUserId` or `getOptimizelyEndUserId` instead.</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            static
+            
+            String
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#getValueForAttributeApiName(java.lang.String, android.content.Context)">getValueForAttributeApiName</a></span>(String attributeApiName, Context context)
+        
+        <div class="jd-descrdiv">This method returns the current value for the OptimizelyAttribute with the corresponding attributeApiName.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            static
+            
+            String
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#getValueForAttributeApiName(java.lang.String)">getValueForAttributeApiName</a></span>(String attributeApiName)
+        
+        <div class="jd-descrdiv">This method returns the current value for the OptimizelyAttribute with the corresponding attributeApiName.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            static
+            
+            String
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#getValueForAttributeId(java.lang.String)">getValueForAttributeId</a></span>(String attributeId)
+        
+        <div class="jd-descrdiv">This method returns the current value for the OptimizelyAttribute with the corresponding attributeId.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            static
+            
+            String
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#getValueForAttributeId(java.lang.String, android.content.Context)">getValueForAttributeId</a></span>(String attributeId, Context context)
+        
+        <div class="jd-descrdiv">This method returns the current value for the OptimizelyAttribute with the corresponding attributeId.</div>
   
   </td></tr>
 
@@ -1318,15 +1428,13 @@ Summary:
             
             
             
-            static
+            
             
             boolean
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#isUserInAudience(java.lang.String)">isUserInAudience</a></span>(String audienceID)
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#isRestarting()">isRestarting</a></span>()
         
-        <div class="jd-descrdiv">Takes an audience is and returns whether the current state of the user would have satisfied that audience's condition(s).</div>
-  
   </td></tr>
 
 
@@ -1338,12 +1446,12 @@ Summary:
             
             static
             
-            <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Point&gt;
+            boolean
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#pointForKey(java.lang.String, android.graphics.Point, com.optimizely.Variable.LiveVariable.Callback<android.graphics.Point>)">pointForKey</a></span>(String variableKey, Point defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Point&gt; callback)
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#isUserInAudience(java.lang.String)">isUserInAudience</a></span>(String audienceID)
         
-        <div class="jd-descrdiv">Method to create a OptimizelyVariable in client app with type Point.</div>
+        <div class="jd-descrdiv">Takes an audience is and returns whether the current state of the user would have satisfied that audience's condition(s).</div>
   
   </td></tr>
 
@@ -1377,14 +1485,9 @@ Summary:
             <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Point&gt;
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#pointVariable(java.lang.String, android.graphics.Point)">pointVariable</a></span>(String variableKey, Point defaultValue)
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#pointForKey(java.lang.String, android.graphics.Point, com.optimizely.Variable.LiveVariable.Callback<android.graphics.Point>)">pointForKey</a></span>(String variableKey, Point defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Point&gt; callback)
         
-        <div class="jd-descrdiv">
-      <em>
-  This method is deprecated.
-      Use <code><a href="../../com/optimizely/Optimizely.html#pointForKey(java.lang.String, android.graphics.Point)">pointForKey(String, Point)</a></code>
- Method to create a OptimizelyVariable in client app with type Point.
-</em></div>
+        <div class="jd-descrdiv">Method to create a OptimizelyVariable in client app with type Point.</div>
   
   </td></tr>
 
@@ -1421,10 +1524,51 @@ Summary:
             
             static
             
+            <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Point&gt;
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#pointVariable(java.lang.String, android.graphics.Point)">pointVariable</a></span>(String variableKey, Point defaultValue)
+        
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Use <code><a href="../../com/optimizely/Optimizely.html#pointForKey(java.lang.String, android.graphics.Point)">pointForKey(String, Point)</a></code>
+ Method to create a OptimizelyVariable in client app with type Point.
+</em></div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            static
+            
             <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Rect&gt;
         </td>
         <td class="jd-linkcol" width="100%">
         <span class="sympad"><a href="../../com/optimizely/Optimizely.html#rectForKey(java.lang.String, android.graphics.Rect)">rectForKey</a></span>(String variableKey, Rect defaultValue)
+        
+        <div class="jd-descrdiv">Method to create a OptimizelyVariable in client app with type Rectangle.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            static
+            
+            <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Rect&gt;
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#rectForKey(java.lang.String, android.graphics.Rect, com.optimizely.Variable.LiveVariable.Callback<android.graphics.Rect>)">rectForKey</a></span>(String variableKey, Rect defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Rect&gt; callback)
         
         <div class="jd-descrdiv">Method to create a OptimizelyVariable in client app with type Rectangle.</div>
   
@@ -1442,9 +1586,14 @@ Summary:
             <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Rect&gt;
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#rectForKey(java.lang.String, android.graphics.Rect, com.optimizely.Variable.LiveVariable.Callback<android.graphics.Rect>)">rectForKey</a></span>(String variableKey, Rect defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Rect&gt; callback)
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#rectVariable(java.lang.String, android.graphics.Rect)">rectVariable</a></span>(String variableKey, Rect defaultValue)
         
-        <div class="jd-descrdiv">Method to create a OptimizelyVariable in client app with type Rectangle.</div>
+        <div class="jd-descrdiv">
+      <em>
+  This method is deprecated.
+      Use <code><a href="../../com/optimizely/Optimizely.html#rectForKey(java.lang.String, android.graphics.Rect)">rectForKey(String, Rect)</a></code>
+ Method to create a OptimizelyVariable in client app with type Rectangle.
+</em></div>
   
   </td></tr>
 
@@ -1481,29 +1630,6 @@ Summary:
             
             static
             
-            <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Rect&gt;
-        </td>
-        <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#rectVariable(java.lang.String, android.graphics.Rect)">rectVariable</a></span>(String variableKey, Rect defaultValue)
-        
-        <div class="jd-descrdiv">
-      <em>
-  This method is deprecated.
-      Use <code><a href="../../com/optimizely/Optimizely.html#rectForKey(java.lang.String, android.graphics.Rect)">rectForKey(String, Rect)</a></code>
- Method to create a OptimizelyVariable in client app with type Rectangle.
-</em></div>
-  
-  </td></tr>
-
-
-	 
-    <tr class="alt-color api apilevel-" >
-        <td class="jd-typecol">
-            
-            
-            
-            static
-            
             void
         </td>
         <td class="jd-linkcol" width="100%">
@@ -1523,7 +1649,7 @@ Summary:
 
 
 	 
-    <tr class=" api apilevel-" >
+    <tr class="alt-color api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -1542,6 +1668,27 @@ Summary:
 
 
 	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            static
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#registerClassWithOptlyFields(java.lang.Class...)">registerClassWithOptlyFields</a></span>(Class... clazz)
+        
+        <div class="jd-descrdiv">Preemptively let the Optimizely SDK know about classes with Live Varibles and Code Blocks
+
+ Before Android Studio 2.0 and the new Jack and Jill compiler the SDK was able to scan
+ the Dexfile at runtime to find Live Variables and Code Blocks in classes dynamically.</div>
+  
+  </td></tr>
+
+
+	 
     <tr class="alt-color api apilevel-" >
         <td class="jd-typecol">
             
@@ -1554,13 +1701,8 @@ Summary:
         <td class="jd-linkcol" width="100%">
         <span class="sympad"><a href="../../com/optimizely/Optimizely.html#registerPlugin(OptimizelyPlugin)">registerPlugin</a></span>(OptimizelyPlugin plugin)
         
-        <div class="jd-descrdiv">
-      <em>
-  This method is deprecated.
-      This API is no longer necessary. The Optimizely core SDK will automatically load
- any classes that implement the OptimizelyPlugin interface and expose a zero-argument
- constructor.
-</em></div>
+        <div class="jd-descrdiv">Register the given plugin for activation now if Optimizely is running or for activiation
+ once Optimizely loads</div>
   
   </td></tr>
 
@@ -1834,6 +1976,40 @@ Summary:
             
             
             
+            
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#setOptimizelyData(OptimizelyData)">setOptimizelyData</a></span>(OptimizelyData data)
+        
+        <div class="jd-descrdiv">Set the OptimizelyData</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#setOptimizelyEventsManager(OptimizelyEventsManager)">setOptimizelyEventsManager</a></span>(OptimizelyEventsManager eventsManager)
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
             static
             
             void
@@ -1850,6 +2026,22 @@ Summary:
             
             
             
+            
+            
+            void
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#setStartState(com.optimizely.Optimizely.OptimizelyStartState)">setStartState</a></span>(<a href="../../com/optimizely/Optimizely.OptimizelyStartState.html">Optimizely.OptimizelyStartState</a> startState)
+        
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
             static
             
             void
@@ -1861,7 +2053,7 @@ Summary:
 
 
 	 
-    <tr class="alt-color api apilevel-" >
+    <tr class=" api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -1882,7 +2074,79 @@ Summary:
 
 
 	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            static
+            
+            boolean
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#setValueForAttributeApiName(java.lang.String, java.lang.String)">setValueForAttributeApiName</a></span>(String attributeValue, String attributeApiName)
+        
+        <div class="jd-descrdiv">This method returns whether the value was successfully set for an attribute with the corresponding attributeApiName.</div>
+  
+  </td></tr>
+
+
+	 
     <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            static
+            
+            boolean
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#setValueForAttributeApiName(java.lang.String, java.lang.String, android.content.Context)">setValueForAttributeApiName</a></span>(String attributeValue, String attributeApiName, Context context)
+        
+        <div class="jd-descrdiv">This method returns whether the value was successfully set for an attribute.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            static
+            
+            boolean
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#setValueForAttributeId(java.lang.String, java.lang.String, android.content.Context)">setValueForAttributeId</a></span>(String attributeValue, String attributeId, Context context)
+        
+        <div class="jd-descrdiv">This method returns whether the value was successfully set for an attribute.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            static
+            
+            boolean
+        </td>
+        <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#setValueForAttributeId(java.lang.String, java.lang.String)">setValueForAttributeId</a></span>(String attributeValue, String attributeId)
+        
+        <div class="jd-descrdiv">This method returns whether the value was successfully set for an attribute with corresponding attributeId.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class="alt-color api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -1900,7 +2164,7 @@ Summary:
 
 
 	 
-    <tr class="alt-color api apilevel-" >
+    <tr class=" api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -1916,7 +2180,7 @@ Summary:
 
 
 	 
-    <tr class=" api apilevel-" >
+    <tr class="alt-color api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -1934,7 +2198,7 @@ Summary:
 
 
 	 
-    <tr class="alt-color api apilevel-" >
+    <tr class=" api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -1952,7 +2216,7 @@ Summary:
 
 
 	 
-    <tr class=" api apilevel-" >
+    <tr class="alt-color api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -1980,7 +2244,7 @@ Summary:
 
 
 	 
-    <tr class="alt-color api apilevel-" >
+    <tr class=" api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -1994,24 +2258,6 @@ Summary:
         
         <div class="jd-descrdiv">Calling this method begins the Optimizely activation (see <code><a href="../../com/optimizely/Optimizely.html#startOptimizely(java.lang.String, android.app.Application)">startOptimizely(String, android.app.Application)</a></code>)
  but returns before the network request to download the data file is made.</div>
-  
-  </td></tr>
-
-
-	 
-    <tr class=" api apilevel-" >
-        <td class="jd-typecol">
-            
-            
-            
-            static
-            
-            void
-        </td>
-        <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#startOptimizelyWithAPIToken(java.lang.String, android.app.Application)">startOptimizelyWithAPIToken</a></span>(String apiToken, Application application)
-        
-        <div class="jd-descrdiv">Calling this activates the Optimizely framework.</div>
   
   </td></tr>
 
@@ -2040,15 +2286,14 @@ Summary:
             
             
             
-            
+            static
             
             void
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#stopOptimizely()">stopOptimizely</a></span>()
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#startOptimizelyWithAPIToken(java.lang.String, android.app.Application)">startOptimizelyWithAPIToken</a></span>(String apiToken, Application application)
         
-        <div class="jd-descrdiv">Tear down Optimizely and remove components
-</div>
+        <div class="jd-descrdiv">Calling this activates the Optimizely framework.</div>
   
   </td></tr>
 
@@ -2059,14 +2304,15 @@ Summary:
             
             
             
-            static
             
-            <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;String&gt;
+            
+            void
         </td>
         <td class="jd-linkcol" width="100%">
-        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#stringForKey(java.lang.String, java.lang.String)">stringForKey</a></span>(String variableKey, String defaultValue)
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#stopOptimizely()">stopOptimizely</a></span>()
         
-        <div class="jd-descrdiv">Method to create a OptimizelyVariable in client app with type String.</div>
+        <div class="jd-descrdiv">Tear down Optimizely and remove components
+</div>
   
   </td></tr>
 
@@ -2100,6 +2346,24 @@ Summary:
             <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;String&gt;
         </td>
         <td class="jd-linkcol" width="100%">
+        <span class="sympad"><a href="../../com/optimizely/Optimizely.html#stringForKey(java.lang.String, java.lang.String)">stringForKey</a></span>(String variableKey, String defaultValue)
+        
+        <div class="jd-descrdiv">Method to create a OptimizelyVariable in client app with type String.</div>
+  
+  </td></tr>
+
+
+	 
+    <tr class=" api apilevel-" >
+        <td class="jd-typecol">
+            
+            
+            
+            static
+            
+            <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;String&gt;
+        </td>
+        <td class="jd-linkcol" width="100%">
         <span class="sympad"><a href="../../com/optimizely/Optimizely.html#stringVariable(java.lang.String, java.lang.String)">stringVariable</a></span>(String variableKey, String defaultValue)
         
         <div class="jd-descrdiv">
@@ -2113,7 +2377,7 @@ Summary:
 
 
 	 
-    <tr class=" api apilevel-" >
+    <tr class="alt-color api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -2137,7 +2401,7 @@ Summary:
 
 
 	 
-    <tr class="alt-color api apilevel-" >
+    <tr class=" api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -2155,7 +2419,7 @@ Summary:
 
 
 	 
-    <tr class=" api apilevel-" >
+    <tr class="alt-color api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -2177,7 +2441,7 @@ Summary:
 
 
 	 
-    <tr class="alt-color api apilevel-" >
+    <tr class=" api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -2195,7 +2459,7 @@ Summary:
 
 
 	 
-    <tr class=" api apilevel-" >
+    <tr class="alt-color api apilevel-" >
         <td class="jd-typecol">
             
             
@@ -3228,6 +3492,47 @@ From class
 </div>
 
 
+<a id="enablePreview()"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        void
+      </span>
+      <span class="sympad">enablePreview</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Makes Optimizely launch in preview mode.
+
+ The datafile on the device will be synced with the one on our servers.  This method
+ may block the UI thread when initializing.  This method should NOT be called in
+ production builds.
+
+ If this method is called after
+ <code><a href="../../com/optimizely/Optimizely.html#startOptimizelyWithAPIToken(java.lang.String, android.app.Application, com.optimizely.integration.OptimizelyEventListener)">startOptimizelyWithAPIToken(String, Application, OptimizelyEventListener)</a></code>
+ or <code><a href="../../com/optimizely/Optimizely.html#startOptimizelyAsync(java.lang.String, android.app.Application, com.optimizely.integration.OptimizelyEventListener)">startOptimizelyAsync(String, Application, OptimizelyEventListener)</a></code>
+ it will no-op.
+</p></div>
+
+    </div>
+</div>
+
+
 <a id="fetchNewDataFile()"></a>
 
 <div class="jd-details api apilevel-"> 
@@ -3329,55 +3634,6 @@ From class
 </div>
 
 
-<a id="floatForKey(java.lang.String, float)"></a>
-
-<div class="jd-details api apilevel-"> 
-    <h4 class="jd-details-title">
-      <span class="normal">
-        public 
-        static 
-         
-         
-         
-        <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Float&gt;
-      </span>
-      <span class="sympad">floatForKey</span>
-      <span class="normal">(String variableKey, float defaultValue)</span>
-    </h4>
-      <div class="api-level">
-        <div>
-
-</div>
-        
-  
-
-      </div>
-    <div class="jd-details-descr">
-      
-  <div class="jd-tagdata jd-tagdescr"><p>Method to create a OptimizelyVariable in client app with type as float precision.</p></div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Parameters</h5>
-      <table class="jd-tagtable">
-        <tr>
-          <th>variableKey</th>
-          <td>the name of the variable. Must be unique.</td>
-        </tr>
-        <tr>
-          <th>defaultValue</th>
-          <td>the value that will be returned if no value is specified in the experiment.</td>
-        </tr>
-      </table>
-  </div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Returns</h5>
-      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.
-</li></ul>
-  </div>
-
-    </div>
-</div>
-
-
 <a id="floatForKey(java.lang.String, float, com.optimizely.Variable.LiveVariable.Callback<java.lang.Float>)"></a>
 
 <div class="jd-details api apilevel-"> 
@@ -3432,7 +3688,7 @@ From class
 </div>
 
 
-<a id="floatVariable(java.lang.String, float, com.optimizely.Variable.LiveVariable.Callback<java.lang.Float>)"></a>
+<a id="floatForKey(java.lang.String, float)"></a>
 
 <div class="jd-details api apilevel-"> 
     <h4 class="jd-details-title">
@@ -3444,8 +3700,8 @@ From class
          
         <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Float&gt;
       </span>
-      <span class="sympad">floatVariable</span>
-      <span class="normal">(String variableKey, float defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Float&gt; callback)</span>
+      <span class="sympad">floatForKey</span>
+      <span class="normal">(String variableKey, float defaultValue)</span>
     </h4>
       <div class="api-level">
         <div>
@@ -3456,15 +3712,8 @@ From class
 
       </div>
     <div class="jd-details-descr">
-      <p>
-  <p class="caution">
-      <strong>
-  This method is deprecated.</strong><br/> Use <code><a href="../../com/optimizely/Optimizely.html#floatForKey(java.lang.String, float, com.optimizely.Variable.LiveVariable.Callback<java.lang.Float>)">floatForKey(String, float, LiveVariable.Callback)</a></code>
- Method to create a OptimizelyVariable in client app with type as float precision.
- This method also takes a callback to be executed when value changes.
-
-  </p>
-  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Method to create a OptimizelyVariable in client app with type as float precision.</p></div>
   <div class="jd-tagdata">
       <h5 class="jd-tagtitle">Parameters</h5>
       <table class="jd-tagtable">
@@ -3476,15 +3725,12 @@ From class
           <th>defaultValue</th>
           <td>the value that will be returned if no value is specified in the experiment.</td>
         </tr>
-        <tr>
-          <th>callback</th>
-          <td>the callback to be executed when value changes in editor.</td>
-        </tr>
       </table>
   </div>
   <div class="jd-tagdata">
       <h5 class="jd-tagtitle">Returns</h5>
-      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.</li></ul>
+      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.
+</li></ul>
   </div>
 
     </div>
@@ -3533,6 +3779,65 @@ From class
         <tr>
           <th>defaultValue</th>
           <td>the value that will be returned if no value is specified in the experiment.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
+<a id="floatVariable(java.lang.String, float, com.optimizely.Variable.LiveVariable.Callback<java.lang.Float>)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Float&gt;
+      </span>
+      <span class="sympad">floatVariable</span>
+      <span class="normal">(String variableKey, float defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Float&gt; callback)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Use <code><a href="../../com/optimizely/Optimizely.html#floatForKey(java.lang.String, float, com.optimizely.Variable.LiveVariable.Callback<java.lang.Float>)">floatForKey(String, float, LiveVariable.Callback)</a></code>
+ Method to create a OptimizelyVariable in client app with type as float precision.
+ This method also takes a callback to be executed when value changes.
+
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>variableKey</th>
+          <td>the name of the variable. Must be unique.</td>
+        </tr>
+        <tr>
+          <th>defaultValue</th>
+          <td>the value that will be returned if no value is specified in the experiment.</td>
+        </tr>
+        <tr>
+          <th>callback</th>
+          <td>the callback to be executed when value changes in editor.</td>
         </tr>
       </table>
   </div>
@@ -3748,6 +4053,44 @@ From class
 </div>
 
 
+<a id="getAttributes()"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        ArrayList&lt;<a href="../../com/optimizely/Audiences/OptimizelyAttribute.html">OptimizelyAttribute</a>&gt;
+      </span>
+      <span class="sympad">getAttributes</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>This method returns a copy of all attributes that are defined in the data file.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>If this is called before Optimizely starts, it will return an empty array
+  If there are no attributes, it will return an empty array.
+  Else it will return an ArrayList of OptimizelyAttribute objects.
+</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
 <a id="getAudiences()"></a>
 
 <div class="jd-details api apilevel-"> 
@@ -3819,6 +4162,42 @@ From class
 </div>
 
 
+<a id="getDataStore()"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        OptimizelyDataStore
+      </span>
+      <span class="sympad">getDataStore</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>Returns the interface to the on-disk persistence store
+</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
 <a id="getDimensions()"></a>
 
 <div class="jd-details api apilevel-"> 
@@ -3829,7 +4208,7 @@ From class
          
          
          
-        ArrayList&lt;OptimizelyDimension&gt;
+        ArrayList&lt;<a href="../../com/optimizely/Audiences/OptimizelyDimension.html">OptimizelyDimension</a>&gt;
       </span>
       <span class="sympad">getDimensions</span>
       <span class="normal">()</span>
@@ -3844,13 +4223,17 @@ From class
       </div>
     <div class="jd-details-descr">
       
-  <div class="jd-tagdata jd-tagdescr"><p>This method returns a copy of all dimensions that are defined in the data file.</p></div>
+  <div class="jd-tagdata jd-tagdescr"><p>This method returns a copy of all dimensions that are defined in the data file.@deprecated</p></div>
   <div class="jd-tagdata">
       <h5 class="jd-tagtitle">Returns</h5>
       <ul class="nolist"><li>If this is called before Optimizely starts, it will return an empty array
   If there are no dimensions, it will return an empty array.
-  Else it will return an ArrayList of OptimizelyDimension objects.
-</li></ul>
+  Else it will return an ArrayList of OptimizelyDimension objects.</li></ul>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">See Also</h5>
+      <ul class="nolist"><li><code><a href="../../com/optimizely/Optimizely.html#getAttributes()">getAttributes()</a></code></li>
+      </ul>
   </div>
 
     </div>
@@ -3972,7 +4355,7 @@ From class
 </div>
 
 
-<a id="getOptimizelyDimensionsManager()"></a>
+<a id="getOptimizelyAttributesManager(android.content.Context)"></a>
 
 <div class="jd-details api apilevel-"> 
     <h4 class="jd-details-title">
@@ -3982,10 +4365,10 @@ From class
          
          
          
-        OptimizelyDimensionsManager
+        OptimizelyAttributesManager
       </span>
-      <span class="sympad">getOptimizelyDimensionsManager</span>
-      <span class="normal">()</span>
+      <span class="sympad">getOptimizelyAttributesManager</span>
+      <span class="normal">(Context context)</span>
     </h4>
       <div class="api-level">
         <div>
@@ -4068,42 +4451,6 @@ From class
   <div class="jd-tagdata">
       <h5 class="jd-tagtitle">Returns</h5>
       <ul class="nolist"><li>a OptimizelySegmentsManager instance
-</li></ul>
-  </div>
-
-    </div>
-</div>
-
-
-<a id="getSharedDataStore()"></a>
-
-<div class="jd-details api apilevel-"> 
-    <h4 class="jd-details-title">
-      <span class="normal">
-        public 
-         
-         
-         
-         
-        OptimizelyDataStore
-      </span>
-      <span class="sympad">getSharedDataStore</span>
-      <span class="normal">()</span>
-    </h4>
-      <div class="api-level">
-        <div>
-
-</div>
-        
-  
-
-      </div>
-    <div class="jd-details-descr">
-      
-  <div class="jd-tagdata jd-tagdescr"><p></p></div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Returns</h5>
-      <ul class="nolist"><li>Returns the interface to the on-disk persistence store
 </li></ul>
   </div>
 
@@ -4266,6 +4613,200 @@ From class
   <div class="jd-tagdata">
       <h5 class="jd-tagtitle">Returns</h5>
       <ul class="nolist"><li>A unique identifier for the current user.
+</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
+<a id="getValueForAttributeApiName(java.lang.String, android.content.Context)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        String
+      </span>
+      <span class="sympad">getValueForAttributeApiName</span>
+      <span class="normal">(String attributeApiName, Context context)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>This method returns the current value for the OptimizelyAttribute with the corresponding attributeApiName.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>attributeApiName</th>
+          <td>The attributeApiName to look up.</td>
+        </tr>
+        <tr>
+          <th>context</th>
+          <td>The current Application Context.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>If this is called before Optimizely starts, it will return what is stored in a key value store for the attributeApiName.
+  If this is called after Optimizely starts, it will function the same as <code><a href="../../com/optimizely/Optimizely.html#getValueForAttributeApiName(java.lang.String)">getValueForAttributeApiName(String)</a></code>.
+</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
+<a id="getValueForAttributeApiName(java.lang.String)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        String
+      </span>
+      <span class="sympad">getValueForAttributeApiName</span>
+      <span class="normal">(String attributeApiName)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>This method returns the current value for the OptimizelyAttribute with the corresponding attributeApiName.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>attributeApiName</th>
+          <td>the attributeApiName to look up.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>If this is called before Optimizely starts, it will return null.
+  If there is no attribute found with the attributeApiName, it will return null.
+  If there is a attribute found, it will return the current value of the attribute.
+</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
+<a id="getValueForAttributeId(java.lang.String)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        String
+      </span>
+      <span class="sympad">getValueForAttributeId</span>
+      <span class="normal">(String attributeId)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>This method returns the current value for the OptimizelyAttribute with the corresponding attributeId.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>attributeId</th>
+          <td>The attributeId to look up.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>If this is called before Optimizely starts, it will return null.
+  If there is no attribute found with the attributeId, it will return null.
+  If there is a attribute found, it will return the current value of the attribute.
+</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
+<a id="getValueForAttributeId(java.lang.String, android.content.Context)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        String
+      </span>
+      <span class="sympad">getValueForAttributeId</span>
+      <span class="normal">(String attributeId, Context context)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>This method returns the current value for the OptimizelyAttribute with the corresponding attributeId.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>attributeId</th>
+          <td>The attributeId to look up.</td>
+        </tr>
+        <tr>
+          <th>context</th>
+          <td>The current Application Context.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>If this is called before Optimizely starts, it will return what is stored in a key value store for the attributeId.
+  If this is called after Optimizely starts it will function the same as <code><a href="../../com/optimizely/Optimizely.html#getValueForAttributeId(java.lang.String)">getValueForAttributeId(String)</a></code>.
 </li></ul>
   </div>
 
@@ -4558,6 +5099,37 @@ From class
 </div>
 
 
+<a id="isRestarting()"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">isRestarting</span>
+      <span class="normal">()</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+
+    </div>
+</div>
+
+
 <a id="isUserInAudience(java.lang.String)"></a>
 
 <div class="jd-details api apilevel-"> 
@@ -4596,6 +5168,55 @@ From class
   <div class="jd-tagdata">
       <h5 class="jd-tagtitle">Returns</h5>
       <ul class="nolist"><li>true if any the user would satisfy the audience criteria, false otherwise
+</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
+<a id="pointForKey(java.lang.String, android.graphics.Point)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Point&gt;
+      </span>
+      <span class="sympad">pointForKey</span>
+      <span class="normal">(String variableKey, Point defaultValue)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Method to create a OptimizelyVariable in client app with type Point.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>variableKey</th>
+          <td>the name of the variable. Must be unique.</td>
+        </tr>
+        <tr>
+          <th>defaultValue</th>
+          <td>the value that will be returned if no value is specified in the experiment.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.
 </li></ul>
   </div>
 
@@ -4657,7 +5278,7 @@ From class
 </div>
 
 
-<a id="pointForKey(java.lang.String, android.graphics.Point)"></a>
+<a id="pointVariable(java.lang.String, android.graphics.Point, com.optimizely.Variable.LiveVariable.Callback<android.graphics.Point>)"></a>
 
 <div class="jd-details api apilevel-"> 
     <h4 class="jd-details-title">
@@ -4669,8 +5290,8 @@ From class
          
         <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Point&gt;
       </span>
-      <span class="sympad">pointForKey</span>
-      <span class="normal">(String variableKey, Point defaultValue)</span>
+      <span class="sympad">pointVariable</span>
+      <span class="normal">(String variableKey, Point defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Point&gt; callback)</span>
     </h4>
       <div class="api-level">
         <div>
@@ -4681,8 +5302,15 @@ From class
 
       </div>
     <div class="jd-details-descr">
-      
-  <div class="jd-tagdata jd-tagdescr"><p>Method to create a OptimizelyVariable in client app with type Point.</p></div>
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Use <code><a href="../../com/optimizely/Optimizely.html#pointForKey(java.lang.String, android.graphics.Point, com.optimizely.Variable.LiveVariable.Callback<android.graphics.Point>)">pointForKey(String, Point, LiveVariable.Callback)</a></code>
+ Method to create a OptimizelyVariable in client app with type Point.
+ This method also takes a callback to be executed when value changes.
+
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
   <div class="jd-tagdata">
       <h5 class="jd-tagtitle">Parameters</h5>
       <table class="jd-tagtable">
@@ -4694,12 +5322,15 @@ From class
           <th>defaultValue</th>
           <td>the value that will be returned if no value is specified in the experiment.</td>
         </tr>
+        <tr>
+          <th>callback</th>
+          <td>the callback to be executed when value changes in editor.</td>
+        </tr>
       </table>
   </div>
   <div class="jd-tagdata">
       <h5 class="jd-tagtitle">Returns</h5>
-      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.
-</li></ul>
+      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.</li></ul>
   </div>
 
     </div>
@@ -4748,65 +5379,6 @@ From class
         <tr>
           <th>defaultValue</th>
           <td>the value that will be returned if no value is specified in the experiment.</td>
-        </tr>
-      </table>
-  </div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Returns</h5>
-      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.</li></ul>
-  </div>
-
-    </div>
-</div>
-
-
-<a id="pointVariable(java.lang.String, android.graphics.Point, com.optimizely.Variable.LiveVariable.Callback<android.graphics.Point>)"></a>
-
-<div class="jd-details api apilevel-"> 
-    <h4 class="jd-details-title">
-      <span class="normal">
-        public 
-        static 
-         
-         
-         
-        <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Point&gt;
-      </span>
-      <span class="sympad">pointVariable</span>
-      <span class="normal">(String variableKey, Point defaultValue, <a href="../../com/optimizely/Variable/LiveVariable.Callback.html">Callback</a>&lt;Point&gt; callback)</span>
-    </h4>
-      <div class="api-level">
-        <div>
-
-</div>
-        
-  
-
-      </div>
-    <div class="jd-details-descr">
-      <p>
-  <p class="caution">
-      <strong>
-  This method is deprecated.</strong><br/> Use <code><a href="../../com/optimizely/Optimizely.html#pointForKey(java.lang.String, android.graphics.Point, com.optimizely.Variable.LiveVariable.Callback<android.graphics.Point>)">pointForKey(String, Point, LiveVariable.Callback)</a></code>
- Method to create a OptimizelyVariable in client app with type Point.
- This method also takes a callback to be executed when value changes.
-
-  </p>
-  <div class="jd-tagdata jd-tagdescr"><p></p></div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Parameters</h5>
-      <table class="jd-tagtable">
-        <tr>
-          <th>variableKey</th>
-          <td>the name of the variable. Must be unique.</td>
-        </tr>
-        <tr>
-          <th>defaultValue</th>
-          <td>the value that will be returned if no value is specified in the experiment.</td>
-        </tr>
-        <tr>
-          <th>callback</th>
-          <td>the callback to be executed when value changes in editor.</td>
         </tr>
       </table>
   </div>
@@ -4922,6 +5494,60 @@ From class
 </div>
 
 
+<a id="rectVariable(java.lang.String, android.graphics.Rect)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Rect&gt;
+      </span>
+      <span class="sympad">rectVariable</span>
+      <span class="normal">(String variableKey, Rect defaultValue)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      <p>
+  <p class="caution">
+      <strong>
+  This method is deprecated.</strong><br/> Use <code><a href="../../com/optimizely/Optimizely.html#rectForKey(java.lang.String, android.graphics.Rect)">rectForKey(String, Rect)</a></code>
+ Method to create a OptimizelyVariable in client app with type Rectangle.
+
+  </p>
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>variableKey</th>
+          <td>the name of the variable. Must be unique.</td>
+        </tr>
+        <tr>
+          <th>defaultValue</th>
+          <td>the value that will be returned if no value is specified in the experiment.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
 <a id="rectVariable(java.lang.String, android.graphics.Rect, com.optimizely.Variable.LiveVariable.Callback<android.graphics.Rect>)"></a>
 
 <div class="jd-details api apilevel-"> 
@@ -4969,60 +5595,6 @@ From class
         <tr>
           <th>callback</th>
           <td>the callback to be executed when value changes in editor.</td>
-        </tr>
-      </table>
-  </div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Returns</h5>
-      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.</li></ul>
-  </div>
-
-    </div>
-</div>
-
-
-<a id="rectVariable(java.lang.String, android.graphics.Rect)"></a>
-
-<div class="jd-details api apilevel-"> 
-    <h4 class="jd-details-title">
-      <span class="normal">
-        public 
-        static 
-         
-         
-         
-        <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;Rect&gt;
-      </span>
-      <span class="sympad">rectVariable</span>
-      <span class="normal">(String variableKey, Rect defaultValue)</span>
-    </h4>
-      <div class="api-level">
-        <div>
-
-</div>
-        
-  
-
-      </div>
-    <div class="jd-details-descr">
-      <p>
-  <p class="caution">
-      <strong>
-  This method is deprecated.</strong><br/> Use <code><a href="../../com/optimizely/Optimizely.html#rectForKey(java.lang.String, android.graphics.Rect)">rectForKey(String, Rect)</a></code>
- Method to create a OptimizelyVariable in client app with type Rectangle.
-
-  </p>
-  <div class="jd-tagdata jd-tagdescr"><p></p></div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Parameters</h5>
-      <table class="jd-tagtable">
-        <tr>
-          <th>variableKey</th>
-          <td>the name of the variable. Must be unique.</td>
-        </tr>
-        <tr>
-          <th>defaultValue</th>
-          <td>the value that will be returned if no value is specified in the experiment.</td>
         </tr>
       </table>
   </div>
@@ -5110,6 +5682,46 @@ From class
 </div>
 
 
+<a id="registerClassWithOptlyFields(java.lang.Class...)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        void
+      </span>
+      <span class="sympad">registerClassWithOptlyFields</span>
+      <span class="normal">(Class... clazz)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Preemptively let the Optimizely SDK know about classes with Live Varibles and Code Blocks
+
+ Before Android Studio 2.0 and the new Jack and Jill compiler the SDK was able to scan
+ the Dexfile at runtime to find Live Variables and Code Blocks in classes dynamically.
+ The Dexfile no longer contains all the classes in the app.  Use this method to register
+ classes with the SDK.  This will cause the LiveVariables and CodeBlocks to show up on the
+ Optimizely editor without needing to navigate to the first place in the host app they are
+ referenced..
+
+ This method is *not* needed for normal mode operation of LiveVariables and CodeBlocks.</p></div>
+
+    </div>
+</div>
+
+
 <a id="registerPlugin(OptimizelyPlugin)"></a>
 
 <div class="jd-details api apilevel-"> 
@@ -5134,14 +5746,7 @@ From class
 
       </div>
     <div class="jd-details-descr">
-      <p>
-  <p class="caution">
-      <strong>
-  This method is deprecated.</strong><br/> This API is no longer necessary. The Optimizely core SDK will automatically load
- any classes that implement the OptimizelyPlugin interface and expose a zero-argument
- constructor.
-
-  </p>
+      
   <div class="jd-tagdata jd-tagdescr"><p>Register the given plugin for activation now if Optimizely is running or for activiation
  once Optimizely loads</p></div>
   <div class="jd-tagdata">
@@ -5149,7 +5754,8 @@ From class
       <table class="jd-tagtable">
         <tr>
           <th>plugin</th>
-          <td>the plugin instance to register.</td>
+          <td>the plugin instance to register.
+</td>
         </tr>
       </table>
   </div>
@@ -5757,6 +6363,68 @@ From class
 </div>
 
 
+<a id="setOptimizelyData(OptimizelyData)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        void
+      </span>
+      <span class="sympad">setOptimizelyData</span>
+      <span class="normal">(OptimizelyData data)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Set the OptimizelyData</p></div>
+
+    </div>
+</div>
+
+
+<a id="setOptimizelyEventsManager(OptimizelyEventsManager)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        void
+      </span>
+      <span class="sympad">setOptimizelyEventsManager</span>
+      <span class="normal">(OptimizelyEventsManager eventsManager)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+
+    </div>
+</div>
+
+
 <a id="setOptimizelyId(java.lang.String, android.view.View)"></a>
 
 <div class="jd-details api apilevel-"> 
@@ -5771,6 +6439,37 @@ From class
       </span>
       <span class="sympad">setOptimizelyId</span>
       <span class="normal">(String id, View view)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p></p></div>
+
+    </div>
+</div>
+
+
+<a id="setStartState(com.optimizely.Optimizely.OptimizelyStartState)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+         
+         
+         
+         
+        void
+      </span>
+      <span class="sympad">setStartState</span>
+      <span class="normal">(<a href="../../com/optimizely/Optimizely.OptimizelyStartState.html">Optimizely.OptimizelyStartState</a> startState)</span>
     </h4>
       <div class="api-level">
         <div>
@@ -5862,6 +6561,218 @@ From class
 </td>
         </tr>
       </table>
+  </div>
+
+    </div>
+</div>
+
+
+<a id="setValueForAttributeApiName(java.lang.String, java.lang.String)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">setValueForAttributeApiName</span>
+      <span class="normal">(String attributeValue, String attributeApiName)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>This method returns whether the value was successfully set for an attribute with the corresponding attributeApiName.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>attributeValue</th>
+          <td>The value to set.</td>
+        </tr>
+        <tr>
+          <th>attributeApiName</th>
+          <td>The attributeApiName to look up.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>If this is called before Optimizely starts, it will return false.
+  If there is no attribute found with the attributeApiName, it will return false.
+  If the value is successfully set for an OptimizelyAttribute object with the matching attributeApiName, it will return true.
+</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
+<a id="setValueForAttributeApiName(java.lang.String, java.lang.String, android.content.Context)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">setValueForAttributeApiName</span>
+      <span class="normal">(String attributeValue, String attributeApiName, Context context)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>This method returns whether the value was successfully set for an attribute.
+ If the attribute does not exist in the datafile, it will still return true, but it will get cleared when Optimizely starts.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>attributeValue</th>
+          <td>The value to set.</td>
+        </tr>
+        <tr>
+          <th>attributeApiName</th>
+          <td>The attributeApiName to look up.</td>
+        </tr>
+        <tr>
+          <th>context</th>
+          <td>The current Application Context.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>If this is called before Optimizely starts, it will return true, and store the key value pairing in storage.
+  If this is called after Optimizely starts, it will behave the same as <code><a href="../../com/optimizely/Optimizely.html#setValueForAttributeApiName(java.lang.String, java.lang.String)">setValueForAttributeApiName(String, String)</a></code>.
+</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
+<a id="setValueForAttributeId(java.lang.String, java.lang.String, android.content.Context)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">setValueForAttributeId</span>
+      <span class="normal">(String attributeValue, String attributeId, Context context)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>This method returns whether the value was successfully set for an attribute.
+ If the attribute does not exist in the datafile, it will still return true, but it will get cleared when Optimizely starts.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>attributeValue</th>
+          <td>The value to set.</td>
+        </tr>
+        <tr>
+          <th>attributeId</th>
+          <td>The attributeId to look up.</td>
+        </tr>
+        <tr>
+          <th>context</th>
+          <td>The current Application Context.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>If this is called before Optimizely starts, it will return true, and store the key value pairing in storage.
+  If this is called after Optimizely starts, it will behave the same as <code><a href="../../com/optimizely/Optimizely.html#setValueForAttributeId(java.lang.String, java.lang.String)">setValueForAttributeId(String, String)</a></code>.
+</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
+<a id="setValueForAttributeId(java.lang.String, java.lang.String)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        boolean
+      </span>
+      <span class="sympad">setValueForAttributeId</span>
+      <span class="normal">(String attributeValue, String attributeId)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>This method returns whether the value was successfully set for an attribute with corresponding attributeId.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>attributeValue</th>
+          <td>The value to set.</td>
+        </tr>
+        <tr>
+          <th>attributeId</th>
+          <td>The attributeId to look up.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>If this is called before Optimizely starts, it will return false.
+  If there is no attribute found with the attributeId, it will return false.
+  If value is successfully set for an OptimizelyAttribute object with the matching attributeId, it will return true.
+</li></ul>
   </div>
 
     </div>
@@ -6135,7 +7046,7 @@ From class
 </div>
 
 
-<a id="startOptimizelyWithAPIToken(java.lang.String, android.app.Application)"></a>
+<a id="startOptimizelyWithAPIToken(java.lang.String, android.app.Application, com.optimizely.integration.OptimizelyEventListener)"></a>
 
 <div class="jd-details api apilevel-"> 
     <h4 class="jd-details-title">
@@ -6148,7 +7059,7 @@ From class
         void
       </span>
       <span class="sympad">startOptimizelyWithAPIToken</span>
-      <span class="normal">(String apiToken, Application application)</span>
+      <span class="normal">(String apiToken, Application application, <a href="../../com/optimizely/integration/OptimizelyEventListener.html">OptimizelyEventListener</a> optimizelyEventListener)</span>
     </h4>
       <div class="api-level">
         <div>
@@ -6185,7 +7096,7 @@ From class
 </div>
 
 
-<a id="startOptimizelyWithAPIToken(java.lang.String, android.app.Application, com.optimizely.integration.OptimizelyEventListener)"></a>
+<a id="startOptimizelyWithAPIToken(java.lang.String, android.app.Application)"></a>
 
 <div class="jd-details api apilevel-"> 
     <h4 class="jd-details-title">
@@ -6198,7 +7109,7 @@ From class
         void
       </span>
       <span class="sympad">startOptimizelyWithAPIToken</span>
-      <span class="normal">(String apiToken, Application application, <a href="../../com/optimizely/integration/OptimizelyEventListener.html">OptimizelyEventListener</a> optimizelyEventListener)</span>
+      <span class="normal">(String apiToken, Application application)</span>
     </h4>
       <div class="api-level">
         <div>
@@ -6267,55 +7178,6 @@ From class
 </div>
 
 
-<a id="stringForKey(java.lang.String, java.lang.String)"></a>
-
-<div class="jd-details api apilevel-"> 
-    <h4 class="jd-details-title">
-      <span class="normal">
-        public 
-        static 
-         
-         
-         
-        <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;String&gt;
-      </span>
-      <span class="sympad">stringForKey</span>
-      <span class="normal">(String variableKey, String defaultValue)</span>
-    </h4>
-      <div class="api-level">
-        <div>
-
-</div>
-        
-  
-
-      </div>
-    <div class="jd-details-descr">
-      
-  <div class="jd-tagdata jd-tagdescr"><p>Method to create a OptimizelyVariable in client app with type String.</p></div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Parameters</h5>
-      <table class="jd-tagtable">
-        <tr>
-          <th>variableKey</th>
-          <td>the name of the variable. Must be unique.</td>
-        </tr>
-        <tr>
-          <th>defaultValue</th>
-          <td>the value that will be returned if no value is specified in the experiment.</td>
-        </tr>
-      </table>
-  </div>
-  <div class="jd-tagdata">
-      <h5 class="jd-tagtitle">Returns</h5>
-      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.
-</li></ul>
-  </div>
-
-    </div>
-</div>
-
-
 <a id="stringForKey(java.lang.String, java.lang.String, com.optimizely.Variable.LiveVariable.Callback<java.lang.String>)"></a>
 
 <div class="jd-details api apilevel-"> 
@@ -6357,6 +7219,55 @@ From class
         <tr>
           <th>callback</th>
           <td>the callback to be executed when value changes in editor.</td>
+        </tr>
+      </table>
+  </div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Returns</h5>
+      <ul class="nolist"><li>a new LiveVariable which may be queried with get() to retrieve the value.
+</li></ul>
+  </div>
+
+    </div>
+</div>
+
+
+<a id="stringForKey(java.lang.String, java.lang.String)"></a>
+
+<div class="jd-details api apilevel-"> 
+    <h4 class="jd-details-title">
+      <span class="normal">
+        public 
+        static 
+         
+         
+         
+        <a href="../../com/optimizely/Variable/LiveVariable.html">LiveVariable</a>&lt;String&gt;
+      </span>
+      <span class="sympad">stringForKey</span>
+      <span class="normal">(String variableKey, String defaultValue)</span>
+    </h4>
+      <div class="api-level">
+        <div>
+
+</div>
+        
+  
+
+      </div>
+    <div class="jd-details-descr">
+      
+  <div class="jd-tagdata jd-tagdescr"><p>Method to create a OptimizelyVariable in client app with type String.</p></div>
+  <div class="jd-tagdata">
+      <h5 class="jd-tagtitle">Parameters</h5>
+      <table class="jd-tagtable">
+        <tr>
+          <th>variableKey</th>
+          <td>the name of the variable. Must be unique.</td>
+        </tr>
+        <tr>
+          <th>defaultValue</th>
+          <td>the value that will be returned if no value is specified in the experiment.</td>
         </tr>
       </table>
   </div>

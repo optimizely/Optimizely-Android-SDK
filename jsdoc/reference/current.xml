@@ -224,6 +224,17 @@
  visibility="public"
 >
 </method>
+<method name="enablePreview"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
 <method name="fetchNewDataFile"
  return="void"
  abstract="false"
@@ -382,6 +393,17 @@
  visibility="public"
 >
 </method>
+<method name="getAttributes"
+ return="java.util.ArrayList&lt;com.optimizely.Audiences.OptimizelyAttribute&gt;"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
 <method name="getAudiences"
  return="org.json.JSONArray"
  abstract="false"
@@ -404,14 +426,25 @@
  visibility="public"
 >
 </method>
+<method name="getDataStore"
+ return="OptimizelyDataStore"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
 <method name="getDimensions"
- return="java.util.ArrayList&lt;OptimizelyDimension&gt;"
+ return="java.util.ArrayList&lt;com.optimizely.Audiences.OptimizelyDimension&gt;"
  abstract="false"
  native="false"
  synchronized="false"
  static="true"
  final="false"
- deprecated="not deprecated"
+ deprecated="deprecated"
  visibility="public"
 >
 </method>
@@ -450,8 +483,8 @@
  visibility="public"
 >
 </method>
-<method name="getOptimizelyDimensionsManager"
- return="OptimizelyDimensionsManager"
+<method name="getOptimizelyAttributesManager"
+ return="OptimizelyAttributesManager"
  abstract="false"
  native="false"
  synchronized="false"
@@ -460,6 +493,8 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<parameter name="context" type="android.content.Context">
+</parameter>
 </method>
 <method name="getOptimizelyEndUserId"
  return="java.lang.String"
@@ -476,17 +511,6 @@
 </method>
 <method name="getOptimizelySegmentsManager"
  return="OptimizelySegmentsManager"
- abstract="false"
- native="false"
- synchronized="false"
- static="false"
- final="false"
- deprecated="not deprecated"
- visibility="public"
->
-</method>
-<method name="getSharedDataStore"
- return="OptimizelyDataStore"
  abstract="false"
  native="false"
  synchronized="false"
@@ -541,6 +565,62 @@
  deprecated="deprecated"
  visibility="public"
 >
+<parameter name="context" type="android.content.Context">
+</parameter>
+</method>
+<method name="getValueForAttributeApiName"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="attributeApiName" type="java.lang.String">
+</parameter>
+</method>
+<method name="getValueForAttributeApiName"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="attributeApiName" type="java.lang.String">
+</parameter>
+<parameter name="context" type="android.content.Context">
+</parameter>
+</method>
+<method name="getValueForAttributeId"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="attributeId" type="java.lang.String">
+</parameter>
+</method>
+<method name="getValueForAttributeId"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="attributeId" type="java.lang.String">
+</parameter>
 <parameter name="context" type="android.content.Context">
 </parameter>
 </method>
@@ -629,6 +709,17 @@
 </parameter>
 <parameter name="callback" type="com.optimizely.Variable.LiveVariable.Callback&lt;java.lang.Integer&gt;">
 </parameter>
+</method>
+<method name="isRestarting"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
 </method>
 <method name="isUserInAudience"
  return="boolean"
@@ -793,6 +884,19 @@
  visibility="public"
 >
 </method>
+<method name="registerClassWithOptlyFields"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="clazz" type="java.lang.Class...">
+</parameter>
+</method>
 <method name="registerPlugin"
  return="void"
  abstract="false"
@@ -800,7 +904,7 @@
  synchronized="false"
  static="true"
  final="false"
- deprecated="deprecated"
+ deprecated="not deprecated"
  visibility="public"
 >
 <parameter name="plugin" type="OptimizelyPlugin">
@@ -999,6 +1103,32 @@
 <parameter name="networkTimeout" type="int">
 </parameter>
 </method>
+<method name="setOptimizelyData"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="data" type="OptimizelyData">
+</parameter>
+</method>
+<method name="setOptimizelyEventsManager"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="eventsManager" type="OptimizelyEventsManager">
+</parameter>
+</method>
 <method name="setOptimizelyId"
  return="void"
  abstract="false"
@@ -1012,6 +1142,19 @@
 <parameter name="id" type="java.lang.String">
 </parameter>
 <parameter name="view" type="android.view.View">
+</parameter>
+</method>
+<method name="setStartState"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="startState" type="com.optimizely.Optimizely.OptimizelyStartState">
 </parameter>
 </method>
 <method name="setUniversalUserId"
@@ -1042,6 +1185,70 @@
 <parameter name="context" type="android.content.Context">
 </parameter>
 <parameter name="userId" type="java.lang.String">
+</parameter>
+</method>
+<method name="setValueForAttributeApiName"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="attributeValue" type="java.lang.String">
+</parameter>
+<parameter name="attributeApiName" type="java.lang.String">
+</parameter>
+</method>
+<method name="setValueForAttributeApiName"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="attributeValue" type="java.lang.String">
+</parameter>
+<parameter name="attributeApiName" type="java.lang.String">
+</parameter>
+<parameter name="context" type="android.content.Context">
+</parameter>
+</method>
+<method name="setValueForAttributeId"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="attributeValue" type="java.lang.String">
+</parameter>
+<parameter name="attributeId" type="java.lang.String">
+</parameter>
+</method>
+<method name="setValueForAttributeId"
+ return="boolean"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="true"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="attributeValue" type="java.lang.String">
+</parameter>
+<parameter name="attributeId" type="java.lang.String">
+</parameter>
+<parameter name="context" type="android.content.Context">
 </parameter>
 </method>
 <method name="setVerboseLogging"
@@ -1328,6 +1535,139 @@
  synchronized="false"
  static="true"
  final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+</class>
+</package>
+<package name="com.optimizely.Audiences"
+>
+<class name="OptimizelyAttribute"
+ extends="com.optimizely.Audiences.OptimizelyDimension"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<method name="getAttributeApiName"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getAttributeId"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getAttributeValue"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="setAttributeValue"
+ return="void"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+<parameter name="attributeValue" type="java.lang.String">
+</parameter>
+</method>
+</class>
+<class name="OptimizelyDimension"
+ extends="java.lang.Object"
+ abstract="false"
+ static="false"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+<method name="getDimensionAPIName"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDimensionDescription"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDimensionId"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDimensionName"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="deprecated"
+ visibility="public"
+>
+</method>
+<method name="getDimensionValue"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</method>
+<method name="getSegmentId"
+ return="java.lang.String"
+ abstract="false"
+ native="false"
+ synchronized="false"
+ static="false"
+ final="false"
  deprecated="not deprecated"
  visibility="public"
 >

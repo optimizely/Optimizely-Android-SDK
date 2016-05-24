@@ -2,6 +2,8 @@ var NAVTREE_DATA =
 [ [ "com.optimizely", "com/optimizely/package-summary.html", [ [ "Classes", null, [ [ "Optimizely", "com/optimizely/Optimizely.html", null, "" ] ]
 , "" ], [ "Enums", null, [ [ "Optimizely.OptimizelyStartState", "com/optimizely/Optimizely.OptimizelyStartState.html", null, "" ] ]
 , "" ] ]
+, "" ], [ "com.optimizely.Audiences", "com/optimizely/Audiences/package-summary.html", [ [ "Classes", null, [ [ "OptimizelyAttribute", "com/optimizely/Audiences/OptimizelyAttribute.html", null, "" ], [ "OptimizelyDimension", "com/optimizely/Audiences/OptimizelyDimension.html", null, "" ] ]
+, "" ] ]
 , "" ], [ "com.optimizely.CodeBlocks", "com/optimizely/CodeBlocks/package-summary.html", [ [ "Interfaces", null, [ [ "OptimizelyCodeBlock.Callback", "com/optimizely/CodeBlocks/OptimizelyCodeBlock.Callback.html", null, "" ] ]
 , "" ], [ "Classes", null, [ [ "CodeBranch", "com/optimizely/CodeBlocks/CodeBranch.html", null, "" ], [ "DefaultCodeBranch", "com/optimizely/CodeBlocks/DefaultCodeBranch.html", null, "" ], [ "OptimizelyCodeBlock", "com/optimizely/CodeBlocks/OptimizelyCodeBlock.html", null, "" ], [ "OptimizelyCodeBlocks", "com/optimizely/CodeBlocks/OptimizelyCodeBlocks.html", null, "" ], [ "OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder", "com/optimizely/CodeBlocks/OptimizelyCodeBlocks.OptimizelyCodeBlockBuilder.html", null, "" ] ]
 , "" ] ]
