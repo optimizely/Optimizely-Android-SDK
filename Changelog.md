@@ -1,7 +1,7 @@
 # 1.6.0 (Beta, contact us for access)
 June 29, 2016
 
-* Service Architecture:*
+*Service Architecture:*
 
 Optimizely SDK now has an internal Android Service that is used for I/O such as saving and sending events.  This will ensure that events created by users when there is no internet connectivity will get sent to us eventually even if the the user *never* opens the app again.  Currently, the service will flush events once per day.  In the future this may be configurable.
 
