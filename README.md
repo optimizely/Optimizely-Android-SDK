@@ -1,3 +1,6 @@
+## IMPORTANT NOTE
+Starting September 30th, 2018, Optimizely Classic Mobile has been deprecated. We recommend that all customers move to Optimizely X Full Stack, which includes a new version of Optimizely's mobile solution for experimenting on native Android apps. Learn more [here](https://docs.developers.optimizely.com/full-stack/docs).
+
 Optimizely-Android-SDK
 ======================
 
